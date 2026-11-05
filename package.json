@@ -1,0 +1,14 @@
+{
+  "name": "gta-vi-quiz-funnel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Funil Gamificado de Alta Conversão para GTA VI (PS5 e Xbox Series X|S) - CFC Games",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

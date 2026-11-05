@@ -1,0 +1,4895 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>GTA VI por R$ 303,90 — Economize R$ 146 na Pré-Venda Oficial | CFC Games</title>
+  <meta name="description" content="Descubra a lógica matemática e jurídica de como a CFC Games adquire lotes oficiais de GTA VI na China e repassa para o Brasil por quase metade do preço. Faça o teste gamificado!">
+  <link rel="canonical" href="https://cfcgames.com/gta-vi/quiz">
+  
+  <meta property="og:title" content="GTA VI: O Segredo do Lote da China Revelado | CFC Games">
+  <meta property="og:description" content="Por que pagar R$ 449,90 ou R$ 549,90 no Brasil se a licença original custa muito menos na Ásia? Entenda a matemática dos impostos e garanta seu lote com Garantia Vitalícia.">
+  <meta property="og:image" content="https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?akim=1">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Space Grotesk + Orbitron + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@700;800;900&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       RESET & BASE THEME: VICE CITY HIGH-OCTANE CYBERPUNK
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    :root {
+      --vc-pink: #ec4899;
+      --vc-pink-glow: rgba(236, 72, 153, 0.45);
+      --vc-cyan: #06b6d4;
+      --vc-cyan-glow: rgba(6, 182, 212, 0.45);
+      --vc-yellow: #facc15;
+      --vc-yellow-glow: rgba(250, 204, 21, 0.45);
+      --vc-green: #00e676;
+      --vc-green-glow: rgba(0, 230, 118, 0.45);
+      --vc-dark: #07050f;
+      --vc-card: rgba(18, 14, 32, 0.94);
+      --vc-border: rgba(255, 255, 255, 0.08);
+      --vc-font-hud: 'Orbitron', monospace, sans-serif;
+      --vc-font-title: 'Space Grotesk', sans-serif;
+      --vc-font-body: 'Inter', sans-serif;
+    }
+
+    html, body {
+      background-color: var(--vc-dark);
+      color: #f8fafc;
+      font-family: var(--vc-font-body);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.45;
+      position: relative;
+    }
+
+    /* Interactive Canvas Background */
+    #particles-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Ambient Vice City Atmosphere Background */
+    .ambient-bg {
+      position: fixed;
+      inset: 0;
+      background: 
+        radial-gradient(circle at 50% 0%, rgba(236, 72, 153, 0.18) 0%, transparent 60%),
+        radial-gradient(circle at 10% 80%, rgba(6, 182, 212, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 90% 80%, rgba(250, 204, 21, 0.08) 0%, transparent 50%),
+        linear-gradient(180deg, #07050f 0%, #0d091a 50%, #07050f 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Confetti Canvas for Apex Climax */
+    #confetti-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Screen Shake Trigger */
+    body.screen-shake {
+      animation: screenShakeAnim 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    }
+    @keyframes screenShakeAnim {
+      10%, 90% { transform: translate3d(-3px, 2px, 0); }
+      20%, 80% { transform: translate3d(4px, -3px, 0); }
+      30%, 50%, 70% { transform: translate3d(-5px, 4px, 0); }
+      40%, 60% { transform: translate3d(5px, -4px, 0); }
+    }
+
+    /* Floating Cash Particles */
+    .floating-cash-particle {
+      position: fixed;
+      pointer-events: none;
+      font-family: var(--vc-font-hud);
+      font-weight: 900;
+      font-size: 16px;
+      color: #00e676;
+      text-shadow: 0 0 10px rgba(0, 230, 118, 0.8), 0 2px 4px rgba(0,0,0,0.8);
+      z-index: 10000;
+      animation: floatUpAndFade 1.2s ease-out forwards;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    @keyframes floatUpAndFade {
+      0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(0.8);
+      }
+      50% {
+        opacity: 1;
+        transform: translate3d(0, -50px, 0) scale(1.2);
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(0, -90px, 0) scale(0.9);
+      }
+    }
+
+    /* App Wrapper */
+    .quiz-app {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto;
+      padding: 12px 14px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* ==========================================================================
+       TOP GAMIFIED HUD (ALWAYS STICKY, REAL-TIME DOPAMINE TRACKER)
+       ========================================================================== */
+    .gta-hud {
+      position: sticky;
+      top: 10px;
+      z-index: 100;
+      background: rgba(14, 10, 24, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(236, 72, 153, 0.35);
+      border-radius: 18px;
+      padding: 12px 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(236, 72, 153, 0.2);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .hud-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    /* Cash Savings Pill */
+    .hud-cash-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 230, 118, 0.12);
+      border: 1px solid rgba(0, 230, 118, 0.4);
+      border-radius: 12px;
+      padding: 6px 12px;
+      position: relative;
+      overflow: visible;
+    }
+    .hud-cash-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #a7f3d0;
+    }
+    .hud-cash-val {
+      font-family: var(--vc-font-hud);
+      font-size: 16px;
+      font-weight: 900;
+      color: #00e676;
+      text-shadow: 0 0 10px rgba(0, 230, 118, 0.5);
+      transition: transform 0.2s ease;
+    }
+    .hud-cash-val.bump {
+      animation: cashBounce 0.4s ease;
+    }
+    @keyframes cashBounce {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.35); color: #fff; text-shadow: 0 0 15px #00e676; }
+      100% { transform: scale(1); }
+    }
+
+    /* Bonus pop badge */
+    .cash-bonus-pop {
+      position: absolute;
+      top: -12px;
+      right: -8px;
+      background: #00e676;
+      color: #07050f;
+      font-family: var(--vc-font-hud);
+      font-size: 10px;
+      font-weight: 900;
+      padding: 2px 6px;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      opacity: 0;
+      transform: translateY(5px) scale(0.6);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .cash-bonus-pop.show {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    /* Wanted Stars & VIP Rank */
+    .hud-rank-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 3px;
+    }
+    .hud-wanted-stars {
+      display: flex;
+      gap: 3px;
+    }
+    .star-icon {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.2);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .star-icon.active {
+      color: var(--vc-yellow);
+      text-shadow: 0 0 10px rgba(250, 204, 21, 0.8);
+      animation: starPop 0.4s ease;
+    }
+    @keyframes starPop {
+      0% { transform: scale(0.7); }
+      50% { transform: scale(1.4); }
+      100% { transform: scale(1); }
+    }
+    .hud-rank-name {
+      font-family: var(--vc-font-hud);
+      font-size: 9px;
+      letter-spacing: 0.5px;
+      color: #cbd5e1;
+      text-transform: uppercase;
+    }
+
+    /* Audio DJ Sound Pill */
+    .hud-sound-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      padding: 6px 10px;
+      font-size: 11px;
+      color: #e2e8f0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .hud-sound-btn:hover, .hud-sound-btn:active {
+      background: rgba(236, 72, 153, 0.2);
+      border-color: var(--vc-pink);
+    }
+    .sound-bars-anim {
+      display: flex;
+      align-items: flex-end;
+      gap: 2px;
+      height: 12px;
+    }
+    .sound-bar {
+      width: 2px;
+      background: var(--vc-cyan);
+      border-radius: 1px;
+      height: 4px;
+    }
+    .hud-sound-btn.playing .sound-bar:nth-child(1) { animation: soundBar1 0.6s infinite alternate; }
+    .hud-sound-btn.playing .sound-bar:nth-child(2) { animation: soundBar2 0.4s infinite alternate; }
+    .hud-sound-btn.playing .sound-bar:nth-child(3) { animation: soundBar3 0.5s infinite alternate; }
+    @keyframes soundBar1 { 0% { height: 3px; } 100% { height: 12px; } }
+    @keyframes soundBar2 { 0% { height: 10px; } 100% { height: 2px; } }
+    @keyframes soundBar3 { 0% { height: 4px; } 100% { height: 11px; } }
+
+    /* Electric Progress Bar */
+    .hud-progress-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .hud-progress-bar-bg {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+    }
+    .hud-progress-bar-fill {
+      height: 100%;
+      width: 16%;
+      background: linear-gradient(90deg, #ec4899, #06b6d4, #00e676);
+      background-size: 200% 100%;
+      border-radius: 20px;
+      transition: width 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      box-shadow: 0 0 10px rgba(6, 182, 212, 0.6);
+      animation: shimmerElectric 2s linear infinite;
+    }
+    @keyframes shimmerElectric {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 200% 50%; }
+    }
+    .hud-progress-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    .hud-progress-info strong {
+      color: #f1f5f9;
+    }
+
+    /* ==========================================================================
+       HERO BRAND HEADER (VICE CITY LOGO & AMBIANCE)
+       ========================================================================== */
+    .hero-header {
+      text-align: center;
+      padding: 10px 0 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .gta6-logo-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .gta6-svg-title {
+      font-family: var(--vc-font-hud);
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      background: linear-gradient(180deg, #ffffff 0%, #f472b6 40%, #db2777 70%, #9333ea 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 18px rgba(236, 72, 153, 0.6));
+      line-height: 1;
+    }
+    .gta6-roman-vi {
+      font-family: var(--vc-font-hud);
+      font-size: 42px;
+      font-weight: 900;
+      color: #facc15;
+      text-shadow: 0 0 20px rgba(250, 204, 21, 0.7);
+      margin-left: 6px;
+      line-height: 1;
+    }
+    .hero-tagline {
+      font-size: 13px;
+      font-weight: 600;
+      color: #cbd5e1;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+    .hero-tagline span {
+      color: #00e676;
+      font-weight: 800;
+    }
+
+    /* ==========================================================================
+       QUIZ CARDS (DYNAMIC STEP CONTAINERS WITH SLIDE ANIMATION)
+       ========================================================================== */
+    .quiz-card {
+      display: none;
+      background: var(--vc-card);
+      border: 1px solid var(--vc-border);
+      border-radius: 20px;
+      padding: 22px 18px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    .quiz-card.active {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      animation: cardSlideIn 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @keyframes cardSlideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(18px) scale(0.97);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Card Glow Accent */
+    .quiz-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--vc-pink), var(--vc-cyan), transparent);
+    }
+
+    .step-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(236, 72, 153, 0.14);
+      border: 1px solid rgba(236, 72, 153, 0.35);
+      border-radius: 8px;
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #f472b6;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      width: fit-content;
+    }
+
+    .step-title {
+      font-family: var(--vc-font-title);
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: #f8fafc;
+    }
+    .step-title em {
+      font-style: normal;
+      background: linear-gradient(90deg, #ec4899, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .step-desc {
+      font-size: 13.5px;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+
+    /* Options Grid & Interactive Buttons */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      width: 100%;
+      background: linear-gradient(145deg, rgba(32, 15, 60, 0.95) 0%, rgba(18, 8, 34, 0.98) 100%);
+      border: 1.8px solid rgba(0, 240, 255, 0.45);
+      border-radius: 14px;
+      padding: 16px 18px;
+      color: #f8fafc;
+      font-family: inherit;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 240, 255, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+    .option-btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0, 240, 255, 0.15), rgba(0, 230, 118, 0.15));
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+    .option-btn:hover {
+      border-color: #00e676;
+      background: linear-gradient(145deg, rgba(42, 20, 78, 0.98) 0%, rgba(22, 10, 44, 0.98) 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.65), 0 0 22px rgba(0, 230, 118, 0.4);
+    }
+    .option-btn:hover::after {
+      opacity: 1;
+    }
+    .option-btn:active {
+      transform: scale(0.98);
+      border-color: #00e676;
+    }
+
+    /* Standout Option Arrow */
+    .option-arrow {
+      width: 32px;
+      height: 32px;
+      border-radius: 9px;
+      background: rgba(0, 240, 255, 0.16);
+      border: 1.2px solid rgba(0, 240, 255, 0.5);
+      color: #00f0ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 900;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+    .option-btn:hover .option-arrow {
+      background: #00e676;
+      border-color: #00e676;
+      color: #050b14;
+      transform: translateX(3px);
+      box-shadow: 0 0 12px rgba(0, 230, 118, 0.6);
+    }
+
+    /* Standout Option Icon */
+    .option-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1.5px solid rgba(0, 240, 255, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+    .option-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+    }
+
+    /* Hero Promise Box Styling */
+    .hero-promise-box {
+      margin-top: 14px;
+      background: linear-gradient(135deg, rgba(255, 45, 149, 0.14) 0%, rgba(0, 240, 255, 0.1) 100%);
+      border: 1.8px solid rgba(0, 240, 255, 0.45);
+      border-radius: 16px;
+      padding: 16px 18px;
+      text-align: center;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 240, 255, 0.2);
+    }
+    .hero-promise-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #ff2d95, #00f0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+    }
+    .hero-promise-title {
+      font-family: var(--vc-font-hud);
+      font-size: 17.5px;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.3;
+      margin: 0 0 6px;
+    }
+    .hero-promise-title strong {
+      color: #00e676;
+      text-shadow: 0 0 12px rgba(0, 230, 118, 0.5);
+    }
+    .hero-promise-sub {
+      font-size: 12.5px;
+      color: #cbd5e1;
+      margin: 0;
+      line-height: 1.45;
+    }
+    .hero-promise-sub strong {
+      color: #fff;
+    }
+
+    .option-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      z-index: 1;
+    }
+    .option-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
+    }
+    .option-btn:hover .option-icon {
+      transform: scale(1.08);
+    }
+
+    .option-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #f8fafc;
+      line-height: 1.3;
+    }
+    .option-sub {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 3px;
+    }
+
+    .option-arrow {
+      font-size: 18px;
+      color: #94a3b8;
+      transition: all 0.2s ease;
+      position: relative;
+      z-index: 1;
+    }
+    .option-btn:hover .option-arrow {
+      color: var(--vc-cyan);
+      transform: translateX(4px);
+    }
+
+    /* Option Tag Badge */
+    .option-badge-accent {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: rgba(0, 230, 118, 0.15);
+      color: #00e676;
+      border: 1px solid rgba(0, 230, 118, 0.3);
+      display: inline-block;
+      margin-top: 4px;
+    }
+
+        /* ==========================================================================
+       STEP 4: INTERACTIVE GTA FLIGHT SIMULATOR (CARGO RUN SHENZHEN ➔ SÃO PAULO)
+       ========================================================================== */
+    .flight-sim-box {
+      background: linear-gradient(145deg, rgba(8, 4, 18, 0.98) 0%, rgba(13, 7, 26, 0.98) 100%);
+      border: 1.5px solid rgba(0, 240, 255, 0.4);
+      border-radius: 18px;
+      padding: 16px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 0 35px rgba(0, 240, 255, 0.1);
+    }
+    .sim-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .sim-header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sim-radar-pulse {
+      width: 10px;
+      height: 10px;
+      background: #00e676;
+      border-radius: 50%;
+      box-shadow: 0 0 12px #00e676;
+      animation: simRadarDot 1.4s infinite;
+    }
+    @keyframes simRadarDot {
+      0% { box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.8); }
+      70% { box-shadow: 0 0 0 8px rgba(0, 230, 118, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(0, 230, 118, 0); }
+    }
+    .sim-title {
+      font-family: var(--vc-font-hud);
+      font-size: 11px;
+      font-weight: 800;
+      color: #00f0ff;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .sim-badge {
+      font-size: 9.5px;
+      font-weight: 800;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      color: #00f0ff;
+      padding: 3px 8px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .sim-badge.landed {
+      background: rgba(0, 230, 118, 0.2);
+      border-color: #00e676;
+      color: #00e676;
+      box-shadow: 0 0 12px rgba(0, 230, 118, 0.4);
+    }
+
+    /* Radar Screen Arena */
+    .sim-screen {
+      position: relative;
+      height: 200px;
+      background: radial-gradient(circle at center, rgba(6, 182, 212, 0.09) 0%, rgba(7, 3, 15, 0.95) 75%);
+      border-radius: 14px;
+      border: 1.2px dashed rgba(6, 182, 212, 0.35);
+      overflow: hidden;
+      margin-bottom: 14px;
+      touch-action: pan-y;
+      user-select: none;
+    }
+    .sim-grid-lines {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(0, 240, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.06) 1px, transparent 1px);
+      background-size: 24px 24px;
+      pointer-events: none;
+    }
+    .sim-screen .radar-sweep {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 260px;
+      height: 260px;
+      margin-top: -130px;
+      margin-left: -130px;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg at 50% 50%, rgba(0, 240, 255, 0.22) 0deg, transparent 60deg, transparent 360deg);
+      animation: simRadarScan 4s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes simRadarScan {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* City Nodes */
+    .sim-city-node {
+      position: absolute;
+      bottom: 24px;
+      z-index: 4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .sim-city-node.sim-origin {
+      left: 14px;
+    }
+    .sim-city-node.sim-dest {
+      right: 14px;
+    }
+    .sim-city-marker {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .sim-city-marker.china {
+      background: #ef4444;
+      box-shadow: 0 0 15px #ef4444;
+    }
+    .sim-city-marker.brazil {
+      background: #00e676;
+      box-shadow: 0 0 18px #00e676;
+    }
+    .sim-city-marker::after {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 1.5px solid currentColor;
+      animation: simBeaconPulse 1.8s infinite;
+    }
+    @keyframes simBeaconPulse {
+      0% { transform: scale(0.6); opacity: 1; }
+      100% { transform: scale(2); opacity: 0; }
+    }
+    .sim-city-text {
+      text-align: center;
+      line-height: 1.15;
+    }
+    .sim-city-text strong {
+      display: block;
+      font-family: var(--vc-font-hud);
+      font-size: 11px;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.9);
+    }
+    .sim-city-text small {
+      font-size: 9px;
+      color: #94a3b8;
+    }
+
+    /* Trajectory Track */
+    .sim-trajectory-track {
+      position: absolute;
+      top: 50%;
+      left: 45px;
+      right: 45px;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+    .sim-trajectory-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #ec4899, #00f0ff, #00e676);
+      box-shadow: 0 0 12px rgba(0, 240, 255, 0.8);
+      border-radius: 999px;
+      transition: width 0.1s linear;
+    }
+
+    /* Tactical Waypoints */
+    .sim-waypoint {
+      position: absolute;
+      top: 25%;
+      transform: translateX(-50%);
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      opacity: 0.6;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .sim-waypoint.reached {
+      opacity: 1;
+      transform: translateX(-50%) scale(1.15);
+      filter: drop-shadow(0 0 8px #00e676);
+    }
+    .wp-icon {
+      font-size: 16px;
+    }
+    .wp-label {
+      font-size: 8.5px;
+      font-weight: 800;
+      color: #cbd5e1;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 2px 5px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      white-space: nowrap;
+    }
+    .sim-waypoint.reached .wp-label {
+      color: #00e676;
+      border-color: #00e676;
+    }
+
+    /* The Jet Plane */
+    .sim-plane {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      cursor: grab;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: left 0.1s linear;
+      filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.6));
+    }
+    .sim-plane:active {
+      cursor: grabbing;
+    }
+    .sim-plane-sprite {
+      transition: transform 0.2s ease;
+    }
+    .sim-plane.flying .sim-plane-sprite {
+      animation: jetVibe 0.1s infinite alternate;
+    }
+    @keyframes jetVibe {
+      from { transform: translateY(-1px); }
+      to { transform: translateY(1px); }
+    }
+    .sim-afterburner {
+      width: 14px;
+      height: 4px;
+      background: linear-gradient(90deg, #ff2d95, #00f0ff);
+      border-radius: 999px;
+      box-shadow: 0 0 10px #00f0ff, 0 0 15px #ff2d95;
+      margin-top: -3px;
+      opacity: 0.8;
+      animation: afterburnerFlicker 0.15s infinite alternate;
+    }
+    @keyframes afterburnerFlicker {
+      from { transform: scaleX(0.7); opacity: 0.6; }
+      to { transform: scaleX(1.4); opacity: 1; }
+    }
+    .sim-plane-tag {
+      font-family: var(--vc-font-hud);
+      font-size: 7.5px;
+      font-weight: 900;
+      color: #00f0ff;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1px 4px;
+      border-radius: 3px;
+      margin-top: 2px;
+      letter-spacing: 0.05em;
+    }
+
+    /* Mission Passed Overlay */
+    .sim-mission-passed {
+      position: absolute;
+      inset: 0;
+      background: rgba(7, 3, 18, 0.92);
+      backdrop-filter: blur(8px);
+      z-index: 10;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 16px;
+      animation: simPassedFade 0.35s ease forwards;
+    }
+    @keyframes simPassedFade {
+      from { opacity: 0; transform: scale(0.92); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .sim-passed-card {
+      background: linear-gradient(145deg, rgba(0, 230, 118, 0.15) 0%, rgba(0, 240, 255, 0.12) 100%);
+      border: 1.5px solid #00e676;
+      border-radius: 14px;
+      padding: 16px 20px;
+      box-shadow: 0 0 30px rgba(0, 230, 118, 0.3);
+      max-width: 90%;
+    }
+    .sim-passed-trophy {
+      font-size: 36px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .sim-passed-title {
+      font-family: var(--vc-font-hud);
+      font-size: 16px;
+      font-weight: 900;
+      color: #00e676;
+      text-shadow: 0 0 12px rgba(0, 230, 118, 0.6);
+      margin-bottom: 4px;
+    }
+    .sim-passed-desc {
+      font-size: 11px;
+      color: #f1f5f9;
+      line-height: 1.35;
+      margin-bottom: 8px;
+    }
+    .sim-passed-stat {
+      font-family: var(--vc-font-hud);
+      font-size: 10px;
+      font-weight: 900;
+      background: rgba(0, 230, 118, 0.2);
+      border: 1px solid #00e676;
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    /* Cockpit Controls */
+    .sim-cockpit-panel {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+    .sim-throttle-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 11px;
+      font-weight: 800;
+    }
+    .sim-throttle-title {
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .sim-throttle-val {
+      font-family: var(--vc-font-hud);
+      color: #00e676;
+      font-size: 12px;
+      font-weight: 900;
+      text-shadow: 0 0 8px rgba(0, 230, 118, 0.5);
+    }
+    .sim-range-wrap {
+      width: 100%;
+      margin: 8px 0;
+    }
+    .sim-range {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+    }
+    .sim-range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #00f0ff 0%, #ec4899 100%);
+      border: 2px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.8), 0 2px 8px rgba(0,0,0,0.8);
+      cursor: grab;
+      transition: transform 0.1s ease;
+    }
+    .sim-range::-webkit-slider-thumb:active {
+      cursor: grabbing;
+      transform: scale(1.15);
+      box-shadow: 0 0 25px #00f0ff;
+    }
+    .sim-range::-moz-range-thumb {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #00f0ff 0%, #ec4899 100%);
+      border: 2px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+      cursor: grab;
+    }
+    .sim-actions-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .sim-btn-turbo {
+      flex: 1;
+      background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(236, 72, 153, 0.25) 100%);
+      border: 1.2px solid #00f0ff;
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: #fff;
+      font-family: var(--vc-font-hud);
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .sim-btn-turbo:hover {
+      background: linear-gradient(135deg, #00f0ff 0%, #ec4899 100%);
+      color: #000;
+      box-shadow: 0 0 18px rgba(0, 240, 255, 0.6);
+      transform: translateY(-1px);
+    }
+    .sim-btn-reset {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      padding: 8px 12px;
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* Highlight next buttons when flight lands */
+    .options-grid.flight-unlocked .option-btn {
+      border-color: #00e676 !important;
+      box-shadow: 0 0 18px rgba(0, 230, 118, 0.35) !important;
+      animation: optionGlowPulse 1.8s infinite alternate;
+    }
+    @keyframes optionGlowPulse {
+      0% { box-shadow: 0 0 10px rgba(0, 230, 118, 0.2); }
+      100% { box-shadow: 0 0 25px rgba(0, 230, 118, 0.6); }
+    }
+
+
+    /* ==========================================================================
+       STEP 5: DOSSIÊ JURÍDICO & PREVIEW DO ACÓRDÃO TJUE C-128/11
+       ========================================================================== */
+    .legal-vault-box {
+      background: rgba(250, 204, 21, 0.04);
+      border: 1.5px solid rgba(250, 204, 21, 0.35);
+      border-radius: 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      position: relative;
+    }
+    .legal-vault-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .legal-badge-stamp {
+      background: rgba(0, 230, 118, 0.15);
+      border: 1.5px solid #00e676;
+      color: #00e676;
+      font-family: var(--vc-font-hud);
+      font-size: 10px;
+      font-weight: 900;
+      padding: 3px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      box-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
+    }
+
+    .acordao-preview-card {
+      background: rgba(14, 10, 24, 0.85);
+      border: 1.5px solid rgba(250, 204, 21, 0.4);
+      border-radius: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .acordao-preview-card:hover {
+      border-color: #facc15;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(250, 204, 21, 0.25);
+    }
+    .acordao-doc-img-wrap {
+      position: relative;
+      height: 140px;
+      overflow: hidden;
+      background: #1e1b2e;
+    }
+    .acordao-doc-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      opacity: 0.88;
+      transition: transform 0.3s ease;
+    }
+    .acordao-preview-card:hover .acordao-doc-img {
+      transform: scale(1.04);
+      opacity: 1;
+    }
+    .acordao-overlay-badge {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(7, 5, 15, 0.2) 0%, rgba(7, 5, 15, 0.9) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .acordao-btn-zoom {
+      background: linear-gradient(90deg, #facc15, #f59e0b);
+      color: #07050f;
+      font-family: var(--vc-font-hud);
+      font-size: 12px;
+      font-weight: 900;
+      padding: 10px 18px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(250, 204, 21, 0.5);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      animation: pulseZoomBtn 2s infinite;
+    }
+    @keyframes pulseZoomBtn {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); box-shadow: 0 6px 20px rgba(250, 204, 21, 0.8); }
+    }
+    .acordao-caption {
+      padding: 10px 14px;
+      font-size: 12px;
+      color: #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* ==========================================================================
+       STEP 7: TERMINAL DE DESCRIPTOGRAFIA & TENSÃO MÁXIMA (HEIST TERMINAL)
+       ========================================================================== */
+    .terminal-container {
+      background: #05040a;
+      border: 1.5px solid rgba(0, 230, 118, 0.4);
+      border-radius: 16px;
+      padding: 16px;
+      font-family: var(--vc-font-hud);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: 0 0 35px rgba(0, 230, 118, 0.2), inset 0 0 20px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    .terminal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(0, 230, 118, 0.2);
+      padding-bottom: 8px;
+    }
+    .terminal-dots {
+      display: flex;
+      gap: 6px;
+    }
+    .term-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .term-dot.red { background: #ef4444; }
+    .term-dot.yellow { background: #facc15; }
+    .term-dot.green { background: #00e676; }
+    .terminal-title {
+      font-size: 11px;
+      color: #00e676;
+      letter-spacing: 1px;
+    }
+
+    .terminal-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-height: 140px;
+      font-family: 'Space Grotesk', monospace;
+      font-size: 12.5px;
+    }
+    .terminal-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: all 0.3s ease;
+      color: #a7f3d0;
+      line-height: 1.4;
+    }
+    .terminal-line.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .term-prompt {
+      color: var(--vc-pink);
+      font-weight: 800;
+    }
+    .term-badge {
+      font-size: 10px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 4px;
+      margin-left: auto;
+      text-transform: uppercase;
+      font-family: var(--vc-font-hud);
+    }
+    .term-badge.ok {
+      background: rgba(0, 230, 118, 0.2);
+      color: #00e676;
+      border: 1px solid #00e676;
+    }
+
+    .terminal-progress-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .term-bar-bg {
+      height: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .term-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #ec4899, #06b6d4, #00e676);
+      box-shadow: 0 0 15px rgba(0, 230, 118, 0.8);
+      transition: width 0.2s linear;
+    }
+    .term-status-text {
+      font-size: 11px;
+      color: #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ==========================================================================
+       STEP 8: O ÁPICE TOTAL (THE BUYING APEX / DOPAMINE CLIMAX)
+       ========================================================================== */
+    .offer-box {
+      background: linear-gradient(180deg, rgba(236, 72, 153, 0.12) 0%, rgba(6, 182, 212, 0.08) 50%, rgba(0, 230, 118, 0.12) 100%);
+      border: 2px solid rgba(0, 230, 118, 0.6);
+      border-radius: 20px;
+      padding: 24px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+      box-shadow: 0 10px 50px rgba(0, 230, 118, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      position: relative;
+    }
+
+    /* Mission Passed GTA Banner */
+    .mission-passed-banner {
+      background: rgba(0, 0, 0, 0.85);
+      border: 1.5px solid var(--vc-yellow);
+      border-radius: 12px;
+      padding: 10px 14px;
+      box-shadow: 0 0 25px rgba(250, 204, 21, 0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      animation: bannerGlow 2s infinite alternate;
+    }
+    @keyframes bannerGlow {
+      from { box-shadow: 0 0 15px rgba(250, 204, 21, 0.3); }
+      to { box-shadow: 0 0 30px rgba(250, 204, 21, 0.7); }
+    }
+    .mission-passed-title {
+      font-family: var(--vc-font-hud);
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: var(--vc-yellow);
+      text-shadow: 0 0 15px rgba(250, 204, 21, 0.8);
+      text-transform: uppercase;
+    }
+    .mission-respect-badge {
+      font-family: var(--vc-font-hud);
+      font-size: 11px;
+      font-weight: 900;
+      color: #00e676;
+      letter-spacing: 1px;
+    }
+
+    .offer-title {
+      font-family: var(--vc-font-title);
+      font-size: 23px;
+      font-weight: 900;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    .offer-title span.pink {
+      color: var(--vc-pink);
+      text-shadow: 0 0 12px rgba(236, 72, 153, 0.6);
+    }
+
+    /* Scarcity Countdown Bar */
+    .scarcity-timer-bar {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      border-radius: 12px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+    }
+    .scarcity-left {
+      text-align: left;
+    }
+    .scarcity-label {
+      color: #fca5a5;
+      font-weight: 700;
+    }
+    .scarcity-units {
+      font-size: 13px;
+      color: #ffffff;
+      margin-top: 2px;
+    }
+    .scarcity-units strong {
+      color: #06b6d4;
+      font-family: var(--vc-font-hud);
+      font-size: 15px;
+    }
+    .scarcity-units strong.drop-alert {
+      animation: alertUnitDrop 0.8s ease;
+      color: #ef4444;
+    }
+    @keyframes alertUnitDrop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.6); color: #ef4444; text-shadow: 0 0 15px #ef4444; }
+      100% { transform: scale(1); }
+    }
+    .timer-display {
+      font-family: var(--vc-font-hud);
+      font-size: 18px;
+      font-weight: 900;
+      color: #ef4444;
+      text-shadow: 0 0 10px rgba(239, 68, 68, 0.6);
+      animation: timerPulse 1s infinite;
+    }
+    @keyframes timerPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    /* Price Comparison Table */
+    .compare-table {
+      background: rgba(14, 10, 24, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: left;
+    }
+    .compare-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .compare-row.border {
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .compare-label {
+      color: #94a3b8;
+    }
+    .compare-val-old {
+      font-family: var(--vc-font-hud);
+      color: #ef4444;
+      text-decoration: line-through;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .compare-val-new {
+      font-family: var(--vc-font-hud);
+      font-size: 26px;
+      font-weight: 900;
+      color: #ffffff;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      line-height: 1;
+    }
+    .compare-savings-badge {
+      font-family: var(--vc-font-hud);
+      font-size: 14px;
+      font-weight: 900;
+      color: #00e676;
+      background: rgba(0, 230, 118, 0.18);
+      border: 1px solid #00e676;
+      border-radius: 8px;
+      padding: 5px 10px;
+      text-shadow: 0 0 10px rgba(0, 230, 118, 0.6);
+    }
+
+    /* THE HYPNOTIC MAGNETIC CTA BUTTON */
+    .offer-cta-btn {
+      width: 100%;
+      background: linear-gradient(90deg, #00e676, #06b6d4, #00e676);
+      background-size: 200% auto;
+      color: #07050f;
+      font-family: var(--vc-font-hud);
+      font-size: 17px;
+      font-weight: 900;
+      padding: 20px 22px;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      text-decoration: none;
+      box-shadow: 0 8px 35px rgba(0, 230, 118, 0.5), 0 0 25px rgba(6, 182, 212, 0.4);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.25s ease;
+      animation: pulseGlowHeavy 2.5s infinite;
+    }
+    @keyframes pulseGlowHeavy {
+      0%, 100% {
+        box-shadow: 0 8px 30px rgba(0, 230, 118, 0.5), 0 0 20px rgba(6, 182, 212, 0.3);
+        transform: scale(1);
+      }
+      50% {
+        box-shadow: 0 10px 45px rgba(0, 230, 118, 0.8), 0 0 35px rgba(6, 182, 212, 0.6);
+        transform: scale(1.02);
+      }
+    }
+    /* Infinite Shine Swipe */
+    .offer-cta-btn::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -60%;
+      width: 40%;
+      height: 200%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+      transform: rotate(25deg);
+      animation: ctaShine 3s infinite;
+    }
+    @keyframes ctaShine {
+      0% { left: -60%; }
+      30%, 100% { left: 140%; }
+    }
+    .offer-cta-btn:hover {
+      transform: translateY(-2px) scale(1.03);
+    }
+    .offer-cta-btn:active {
+      transform: scale(0.98);
+    }
+    .cta-btn-sub {
+      font-size: 11px;
+      font-family: var(--vc-font-body);
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: rgba(7, 5, 15, 0.85);
+    }
+
+    /* Guarantees Grid */
+    .guarantees-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 6px;
+    }
+    .guarantee-item {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 11px;
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-align: left;
+    }
+    .guarantee-icon {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       REAL-TIME SOCIAL PROOF TOAST NOTIFICATION
+       ========================================================================== */
+    .social-proof-toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%) translateY(120%);
+      background: rgba(14, 10, 24, 0.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(0, 230, 118, 0.5);
+      border-radius: 14px;
+      padding: 10px 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 230, 118, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 999;
+      width: calc(100% - 28px);
+      max-width: 440px;
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: none;
+    }
+    .social-proof-toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+    .toast-icon-pulse {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: rgba(0, 230, 118, 0.15);
+      border: 1px solid #00e676;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .toast-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-align: left;
+    }
+    .toast-title {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .toast-desc {
+      font-size: 11px;
+      color: #a7f3d0;
+    }
+
+    /* ==========================================================================
+       CINEMATIC "SE FUDEU" (WASTED) FULL SCREEN OVERLAY
+       ========================================================================== */
+    .wasted-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 5, 15, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 2000;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .wasted-overlay.is-open {
+      display: flex;
+      animation: wastedFadeIn 0.3s ease forwards;
+    }
+    @keyframes wastedFadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .wasted-vignette {
+      position: absolute;
+      inset: 0;
+      box-shadow: inset 0 0 120px rgba(239, 68, 68, 0.4);
+      pointer-events: none;
+    }
+    .wasted-banner {
+      background: rgba(0, 0, 0, 0.92);
+      border-top: 3px solid #ef4444;
+      border-bottom: 3px solid #ef4444;
+      padding: 16px 30px;
+      text-align: center;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: 0 0 50px rgba(239, 68, 68, 0.5);
+      margin-bottom: 18px;
+      animation: wastedBannerDrop 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+    @keyframes wastedBannerDrop {
+      from { transform: scale(0.6); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .wasted-title {
+      font-family: var(--vc-font-hud);
+      font-size: 38px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ef4444;
+      text-shadow: 0 0 25px rgba(239, 68, 68, 0.9);
+      line-height: 1;
+    }
+    .wasted-sub {
+      font-size: 13px;
+      font-weight: 700;
+      color: #fca5a5;
+      margin-top: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .wasted-box {
+      background: rgba(18, 14, 32, 0.98);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      border-radius: 16px;
+      padding: 18px;
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .tax-breakdown-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: #ef4444;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .tax-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12.5px;
+      color: #cbd5e1;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .tax-name { color: #94a3b8; }
+    .tax-val {
+      font-family: var(--vc-font-hud);
+      font-weight: 700;
+      color: #ef4444;
+    }
+    .tax-total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 800;
+      color: #ffffff;
+      padding-top: 4px;
+    }
+    .tax-total-row .tax-val {
+      font-size: 18px;
+    }
+    .wasted-btn-continue {
+      width: 100%;
+      background: linear-gradient(90deg, #00e676, #06b6d4);
+      color: #07050f;
+      font-family: var(--vc-font-hud);
+      font-size: 14px;
+      font-weight: 900;
+      padding: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      box-shadow: 0 4px 20px rgba(0, 230, 118, 0.4);
+      margin-top: 6px;
+      transition: all 0.2s ease;
+    }
+    .wasted-btn-continue:hover {
+      transform: scale(1.02);
+    }
+
+    /* ==========================================================================
+       FULL SCREEN MULTI-PAGE ACÓRDÃO VIEWER MODAL (4 PÁGINAS FOLHEÁVEIS)
+       ========================================================================== */
+    .acordao-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 3, 10, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      z-index: 3000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+    .acordao-modal.is-open {
+      display: flex;
+    }
+    .acordao-modal-dialog {
+      background: #110e1e;
+      border: 1px solid rgba(250, 204, 21, 0.4);
+      border-radius: 18px;
+      width: 100%;
+      max-width: 520px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 30px rgba(250, 204, 21, 0.2);
+      overflow: hidden;
+    }
+    .acordao-modal-header {
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .acordao-modal-title {
+      font-family: var(--vc-font-hud);
+      font-size: 13px;
+      font-weight: 800;
+      color: #facc15;
+      letter-spacing: 0.5px;
+    }
+    .acordao-page-indicator {
+      font-family: var(--vc-font-hud);
+      font-size: 11px;
+      color: #94a3b8;
+    }
+    .acordao-modal-close {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #f8fafc;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .acordao-modal-body {
+      padding: 18px;
+      overflow-y: auto;
+      flex: 1;
+      font-size: 13.5px;
+      color: #e2e8f0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      touch-action: pan-y;
+    }
+    .doc-page {
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .doc-page.active-page {
+      display: flex;
+      animation: docPageFade 0.25s ease;
+    }
+    @keyframes docPageFade {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .doc-page-inner {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 14px;
+    }
+    .doc-page-header h3 {
+      font-family: var(--vc-font-title);
+      font-size: 16px;
+      color: #facc15;
+      margin-bottom: 4px;
+    }
+    .doc-page-header p {
+      font-size: 11px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+    }
+    .doc-highlight-box {
+      background: rgba(250, 204, 21, 0.08);
+      border-left: 3px solid #facc15;
+      padding: 10px 12px;
+      font-size: 13px;
+      color: #fef08a;
+      margin: 10px 0;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .acordao-modal-footer {
+      padding: 12px 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .doc-nav-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #f8fafc;
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .doc-nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+    .doc-dots-wrap {
+      display: flex;
+      gap: 6px;
+    }
+    .doc-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .doc-dot.active {
+      background: #facc15;
+      transform: scale(1.3);
+      box-shadow: 0 0 8px #facc15;
+    }
+
+    @media (max-width: 480px) {
+      .quiz-app {
+        padding: 8px 10px 50px;
+      }
+      .step-title {
+        font-size: 19px;
+      }
+      .option-btn {
+        padding: 13px 14px;
+      }
+      .option-icon {
+        width: 40px;
+        height: 40px;
+      }
+      .offer-cta-btn {
+        font-size: 15px;
+        padding: 18px;
+      }
+    }
+  
+    /* ==========================================================================
+       OFFICIAL 4K GTA VI LOGO STYLES
+       ========================================================================== */
+    .gta6-logo-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 4px auto 12px;
+      padding: 0;
+    }
+    .gta6-hero-logo-4k {
+      max-width: 290px;
+      width: 82%;
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 25px rgba(255, 45, 149, 0.45)) drop-shadow(0 12px 30px rgba(0, 0, 0, 0.85));
+      transition: transform 0.3s ease, filter 0.3s ease;
+      will-change: transform, filter;
+    }
+    .gta6-hero-logo-4k:hover {
+      transform: scale(1.02);
+      filter: drop-shadow(0 0 35px rgba(0, 240, 255, 0.6)) drop-shadow(0 0 22px rgba(255, 45, 149, 0.5));
+    }
+    @media (max-width: 480px) {
+      .gta6-hero-logo-4k {
+        max-width: 230px;
+        width: 74%;
+      }
+    }
+
+    /* ==========================================================================
+       EXCLUSIVE GTA VI CHINA CHECKOUT COMPONENT
+       ========================================================================== */
+    .gta-checkout-container {
+      margin-top: 20px;
+      background: linear-gradient(145deg, rgba(20, 9, 36, 0.96) 0%, rgba(10, 4, 18, 0.98) 100%);
+      border: 1.5px solid rgba(0, 240, 255, 0.35);
+      border-radius: 18px;
+      padding: 24px 20px;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 240, 255, 0.15);
+      animation: checkoutFadeIn 0.4s ease forwards;
+      text-align: left;
+    }
+    @keyframes checkoutFadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .gta-checkout-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gta-checkout-title {
+      font-family: var(--vc-font-hud);
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .gta-checkout-badge {
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(0, 240, 255, 0.15);
+      border: 1px solid rgba(0, 240, 255, 0.4);
+      color: #00f0ff;
+    }
+    .gta-checkout-plat-switch {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .gta-plat-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 10px 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.2s ease;
+      color: #fff;
+    }
+    .gta-plat-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 45, 149, 0.4);
+    }
+    .gta-plat-card.active {
+      background: rgba(0, 240, 255, 0.12);
+      border-color: #00f0ff;
+      box-shadow: 0 0 18px rgba(0, 240, 255, 0.3);
+    }
+    .gta-plat-card svg {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+    .gta-plat-info {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+    .gta-plat-name {
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .gta-plat-sub {
+      font-size: 10px;
+      color: #94a3b8;
+    }
+    .gta-form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    @media (max-width: 680px) {
+      .gta-form-grid { grid-template-columns: 1fr !important; gap: 10px !important; }
+      .gta-checkout-plat-switch { grid-template-columns: 1fr !important; gap: 8px !important; }
+      .gta-form-input { font-size: 16px !important; }
+    }
+    .gta-form-grid-row-2 {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 10px !important;
+      width: 100% !important;
+      min-width: 0 !important;
+      box-sizing: border-box !important;
+    }
+    .gta-form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+    }
+    .gta-form-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #cbd5e1;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      max-width: 100%;
+    }
+    .gta-form-input {
+      background: rgba(0, 0, 0, 0.45);
+      border: 1.2px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #fff;
+      font-size: 13.5px;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s ease;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      box-sizing: border-box !important;
+    }
+    select.gta-form-input {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      padding-right: 28px !important;
+      background-color: #0f071a !important;
+    }
+    .gta-form-input:focus {
+      border-color: #00e676;
+      box-shadow: 0 0 12px rgba(0, 230, 118, 0.3);
+      background: rgba(0, 0, 0, 0.6);
+    }
+    .gta-pay-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .gta-pay-tab {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 12px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+      color: #fff;
+    }
+    .gta-pay-tab.active {
+      background: rgba(0, 230, 118, 0.12);
+      border-color: #00e676;
+      box-shadow: 0 0 20px rgba(0, 230, 118, 0.35);
+    }
+    .gta-pay-tab-badge {
+      display: inline-block;
+      font-size: 9.5px;
+      font-weight: 900;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: #00e676;
+      color: #000;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+    .gta-pay-tab-title {
+      font-size: 14px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .gta-pay-tab-price {
+      font-size: 11.5px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .gta-pix-box, .gta-card-box {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      padding: 16px 14px;
+      margin-bottom: 16px;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow: hidden !important;
+    }
+    .gta-btn-submit-pix {
+      width: 100%;
+      background: linear-gradient(135deg, #00e676 0%, #00b0ff 100%);
+      color: #050b14;
+      border: none;
+      border-radius: 14px;
+      padding: 16px;
+      font-family: var(--vc-font-hud);
+      font-size: 17px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      box-shadow: 0 10px 30px rgba(0, 230, 118, 0.4);
+      transition: all 0.25s ease;
+    }
+    .gta-btn-submit-pix:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(0, 230, 118, 0.6);
+      filter: brightness(1.08);
+    }
+    .gta-btn-submit-pix:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    .gta-pix-result {
+      display: none;
+      text-align: center;
+      animation: checkoutFadeIn 0.3s ease forwards;
+    }
+    .gta-qr-wrapper {
+      background: #fff;
+      display: inline-block;
+      padding: 12px;
+      border-radius: 14px;
+      margin: 12px 0;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    }
+    .gta-qr-wrapper img {
+      width: 190px;
+      height: 190px;
+      display: block;
+    }
+    .gta-copy-input-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .gta-copy-input {
+      flex: 1;
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 11.5px;
+      color: #94a3b8;
+      font-family: monospace;
+      outline: none;
+    }
+    .gta-btn-copy {
+      background: rgba(0, 230, 118, 0.2);
+      border: 1px solid #00e676;
+      color: #00e676;
+      border-radius: 10px;
+      padding: 0 16px;
+      font-weight: 800;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .gta-btn-copy:hover {
+      background: #00e676;
+      color: #000;
+    }
+    .gta-radar-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: #00e676;
+      font-weight: 700;
+    }
+    .gta-radar-dot {
+      width: 10px;
+      height: 10px;
+      background: #00e676;
+      border-radius: 50%;
+      animation: radarPulse 1.2s infinite;
+    }
+    @keyframes radarPulse {
+      0% { box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.8); }
+      70% { box-shadow: 0 0 0 10px rgba(0, 230, 118, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(0, 230, 118, 0); }
+    }
+    .gta-success-box {
+      display: none;
+      background: linear-gradient(135deg, rgba(0, 230, 118, 0.15) 0%, rgba(0, 176, 255, 0.15) 100%);
+      border: 2px solid #00e676;
+      border-radius: 16px;
+      padding: 24px 18px;
+      text-align: center;
+      animation: checkoutFadeIn 0.4s ease forwards;
+    }
+    .gta-success-icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .gta-success-title {
+      font-family: var(--vc-font-hud);
+      font-size: 24px;
+      font-weight: 900;
+      color: #00e676;
+      margin-bottom: 8px;
+      text-shadow: 0 0 20px rgba(0, 230, 118, 0.6);
+    }
+    .gta-security-trust {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px 14px;
+      font-size: 10.5px;
+      color: #94a3b8;
+      margin-top: 14px;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+
+    /* ==========================================================================
+       21ST.DEV SPOTLIGHT GLOW EFFECT & MOBILE OVERFLOW FIXES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+
+    /* 21st.dev Spotlight Glow Effect */
+    .quiz-card, .offer-box, .gta-checkout-container, .quiz-opt {
+      position: relative;
+    }
+    .quiz-card::after, .offer-box::after, .gta-checkout-container::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      background: radial-gradient(350px circle at var(--mouse-x, -500px) var(--mouse-y, -500px), rgba(0, 240, 255, 0.08), transparent 80%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 1;
+    }
+    .quiz-card:hover::after, .offer-box:hover::after, .gta-checkout-container:hover::after {
+      opacity: 1;
+    }
+    .quiz-opt::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      background: radial-gradient(220px circle at var(--mouse-x, -500px) var(--mouse-y, -500px), rgba(236, 72, 153, 0.16), transparent 80%);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      z-index: 1;
+    }
+    .quiz-opt:hover::after, .quiz-opt:active::after {
+      opacity: 1;
+    }
+
+    /* Active Card Tab Highlight */
+    .gta-pay-tab.active-card {
+      background: rgba(99, 102, 241, 0.14) !important;
+      border-color: #818cf8 !important;
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.35) !important;
+    }
+
+    /* Mobile Responsive Zero-Overflow Rules */
+    @media (max-width: 580px) {
+      body {
+        padding: 12px 8px 40px !important;
+      }
+      .quiz-app {
+        padding: 0 2px !important;
+        max-width: 100vw !important;
+      }
+      .quiz-card {
+        padding: 16px 12px !important;
+        border-radius: 16px !important;
+      }
+      .offer-box {
+        padding: 16px 12px !important;
+        border-radius: 16px !important;
+      }
+      .gta-checkout-container {
+        padding: 16px 12px !important;
+        border-radius: 16px !important;
+        margin-top: 14px !important;
+      }
+      .gta-checkout-plat-switch {
+        grid-template-columns: 1fr !important;
+        gap: 8px !important;
+      }
+      .gta-plat-card {
+        padding: 10px 12px !important;
+        width: 100% !important;
+      }
+      .gta-pay-tabs {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 6px !important;
+      }
+      .gta-pay-tab {
+        padding: 10px 6px !important;
+      }
+      .gta-pay-tab-badge {
+        font-size: 8.5px !important;
+        padding: 2px 5px !important;
+      }
+      .gta-form-grid {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+      }
+      .gta-form-input {
+        font-size: 15px !important;
+        padding: 10px 12px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .gta-copy-input-row {
+        flex-direction: column !important;
+        gap: 8px !important;
+      }
+      .gta-copy-input {
+        width: 100% !important;
+      }
+      .gta-btn-copy {
+        width: 100% !important;
+        padding: 11px !important;
+      }
+      .gta-qr-wrapper img {
+        width: 170px !important;
+        height: 170px !important;
+      }
+      .compare-table {
+        padding: 12px 10px !important;
+      }
+      .compare-val-new {
+        font-size: 20px !important;
+      }
+      .guarantees-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 8px !important;
+      }
+    }
+
+</style>
+  <!-- Mercado Pago SDK v2 & Antifraud -->
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+  <script src="https://www.mercadopago.com/v2/security.js" view="checkout" output="deviceId"></script>
+
+</head>
+<body>
+  <input type="hidden" id="deviceId">
+
+  <!-- INTERACTIVE BACKGROUND CANVAS -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="ambient-bg"></div>
+
+  <!-- CONFETTI / MONEY CANNON CANVAS FOR APEX -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- AUDIO ELEMENTS -->
+  <audio id="audio-wasted" src="/static/audio/gta-wasted.wav" preload="auto"></audio>
+  <audio id="audio-bg" src="/static/audio/gta6-trailer-theme.mp3" preload="none" loop></audio>
+
+  <div class="quiz-app">
+
+    <!-- ==========================================================================
+         TOP GAMIFIED HUD (ALWAYS STICKY, REAL-TIME DOPAMINE TRACKER)
+         ========================================================================== -->
+    <header class="gta-hud">
+      <div class="hud-top-row">
+        <!-- Cash Savings Pill -->
+        <div class="hud-cash-pill" title="Economia garantida na CFC Games">
+          <span class="hud-cash-label">Você Poupa:</span>
+          <span class="hud-cash-val" id="hud-cash-val">R$ 0,00</span>
+          <span class="cash-bonus-pop" id="cash-bonus-pop">+R$ 40</span>
+        </div>
+
+        <!-- Wanted Stars & VIP Rank -->
+        <div class="hud-rank-block">
+          <div class="hud-wanted-stars">
+            <span class="star-icon active" id="star-1">★</span>
+            <span class="star-icon" id="star-2">★</span>
+            <span class="star-icon" id="star-3">★</span>
+            <span class="star-icon" id="star-4">★</span>
+            <span class="star-icon" id="star-5">★</span>
+          </div>
+          <span class="hud-rank-name" id="hud-rank-name">NÍVEL 1: CIDADÃO</span>
+        </div>
+
+        <!-- Sound Toggle Button -->
+        <button class="hud-sound-btn" id="btn-sound-toggle" type="button" onclick="toggleBgmMusic()" title="Ligar / Desligar Som da Rádio">
+          <div class="sound-bars-anim">
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+          </div>
+          <span id="sound-btn-text">SOM</span>
+        </button>
+      </div>
+
+      <!-- Electric Progress Bar -->
+      <div class="hud-progress-wrap">
+        <div class="hud-progress-bar-bg">
+          <div class="hud-progress-bar-fill" id="hud-progress-fill"></div>
+        </div>
+        <div class="hud-progress-info">
+          <span id="hud-step-text">Passo 1 de 6 • Seu Videogame</span>
+          <strong id="hud-percent-text">16%</strong>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- ==========================================================================
+         HERO BRAND HEADER
+         ========================================================================== -->
+    <div class="hero-header">
+      <div class="gta6-logo-wrap">
+        <img src="/static/brand/gta-vi-logo-china.png?v=3" 
+             srcset="/static/brand/gta-vi-logo-china.png?v=3 1x, /static/brand/gta-vi-logo-china.png?v=3 2x" 
+             onerror="this.onerror=null; this.src='https://i.ibb.co/bj38zym1/GTA-VI-Logo-Sem-Fundo-1.png';" 
+             alt="Grand Theft Auto VI — Logo Oficial 4K" 
+             class="gta6-hero-logo-4k" />
+      </div>
+      <!-- High-Converting Explicit Promise (Simple Language) -->
+      <div class="hero-promise-box">
+        <span class="hero-promise-tag">⚡ PROMOÇÃO DE LANÇAMENTO</span>
+        <h1 class="hero-promise-title">
+          GTA VI Original por apenas <strong>R$ 303,90</strong> no seu videogame
+        </h1>
+        <p class="hero-promise-sub">
+          Economize <strong>R$ 146,00</strong> no Pix em vez de pagar R$ 450 nas lojas. Jogo 100% original com <strong>garantia para sempre</strong>.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 1: COMPATIBILIDADE (PS5 & XBOX SERIES X|S COM LOGOS OFICIAIS)
+         ========================================================================== -->
+    <div class="quiz-card active" id="step-1">
+      <span class="step-tag">🎮 Passo 01 • Escolha seu Videogame</span>
+      <h2 class="step-title">Em qual videogame você vai jogar o <em>GTA VI</em>?</h2>
+      <p class="step-desc">Toque no seu videogame para liberar o seu desconto:</p>
+
+      <div class="options-grid">
+        <!-- PLAYSTATION 5 -->
+        <button class="option-btn" type="button" onclick="selectConsole('ps5', event)">
+          <div class="option-left">
+            <div class="option-icon" style="background:rgba(0,112,209,0.22); border-color:#0070d1;">
+              <img src="/static/brand/playstation-logo-official.png" alt="PlayStation 5" style="width:34px; height:28px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,112,209,0.6));" />
+            </div>
+            <div>
+              <div class="option-title">PlayStation 5 (PS5 / Slim / Pro)</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <!-- XBOX SERIES X|S -->
+        <button class="option-btn" type="button" onclick="selectConsole('xbox', event)">
+          <div class="option-left">
+            <div class="option-icon" style="background:rgba(16,124,65,0.28); border-color:#107c41;">
+              <img src="/static/brand/xbox-logo-official.png" alt="Xbox Series X|S" style="width:30px; height:30px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(16,124,65,0.6));" />
+            </div>
+            <div>
+              <div class="option-title">Xbox Series X ou S</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 2: PREÇO OFICIAL ANUNCIADO NO BRASIL (R$ 449,90 / R$ 549,90)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-2">
+      <span class="step-tag">💸 Passo 02 • O Preço das Lojas</span>
+      <h2 class="step-title">Você viu quanto vão cobrar no <em>GTA VI</em> nas lojas do Brasil?</h2>
+      <p class="step-desc">O preço já foi confirmado nas lojas oficiais da Sony e Microsoft:</p>
+
+      <div class="options-grid">
+        <!-- BOTAO 1: MAIOR CONCENTRAÇÃO DE DOR -->
+        <button class="option-btn" type="button" onclick="goToStep(3, 40, event)">
+          <div class="option-left">
+            <div class="option-icon">😡</div>
+            <div>
+              <div class="option-title">Achei um roubo pagar quase R$ 500 num jogo!</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <!-- BOTAO 2: RECUSA A PAGAR R$ 449 -->
+        <button class="option-btn" type="button" onclick="goToStep(3, 40, event)">
+          <div class="option-left">
+            <div class="option-icon">💸</div>
+            <div>
+              <div class="option-title">Vi o preço e não tenho coragem de pagar isso</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <!-- BOTAO 3: BUSCA POR PREÇO JUSTO -->
+        <button class="option-btn" type="button" onclick="goToStep(3, 40, event)">
+          <div class="option-left">
+            <div class="option-icon">🎯</div>
+            <div>
+              <div class="option-title">Não sabia! Quero pagar o menor preço possível</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 3: POR QUE CUSTA R$ 220 NA ÁSIA E R$ 449,90 NO BRASIL? (WASTED TRIGGER)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-3">
+      <span class="step-tag">🤔 Passo 03 • Por Que Tão Caro?</span>
+      <h2 class="step-title">Você sabe por que o mesmo jogo custa <em>R$ 220 lá fora</em> e <em>R$ 450</em> no Brasil?</h2>
+      <p class="step-desc">Mais da metade do valor que você paga no Brasil não vai para os criadores do jogo. Escolha o que você acredita ser o maior vilão:</p>
+
+      <div class="options-grid">
+        <!-- BOTAO 1: MAIOR CONCENTRAÇÃO DE DOR -->
+        <button class="option-btn" type="button" onclick="triggerWastedEffect(50, event)">
+          <div class="option-left">
+            <div class="option-icon">🏛️</div>
+            <div>
+              <div class="option-title">Os impostos exagerados que dobram o preço de tudo</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <button class="option-btn" type="button" onclick="triggerWastedEffect(50, event)">
+          <div class="option-left">
+            <div class="option-icon">🏬</div>
+            <div>
+              <div class="option-title">O lucro das lojas de shopping que cobram o que querem</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <button class="option-btn" type="button" onclick="triggerWastedEffect(50, event)">
+          <div class="option-left">
+            <div class="option-icon">💸</div>
+            <div>
+              <div class="option-title">Cobram caro porque sabem que o brasileiro é louco por GTA</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 4: RADAR TÁTICO DE CARGA INTERNACIONAL (HIGH-DOPAMINE CYBER WIDGET)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-4">
+      <span class="step-tag">✈️ Passo 04 • O Segredo do Preço Baixo</span>
+      <h2 class="step-title">Como a gente consegue o jogo original por <em>quase metade do preço</em>?</h2>
+      <p class="step-desc">É simples: a gente compra caixas fechadas direto dos fornecedores oficiais lá de fora. Como não passa pelas lojas de shopping do Brasil, você não paga imposto dobrado:</p>
+
+      <!-- CYBERPUNK INTERACTIVE GTA FLIGHT SIMULATOR -->
+      <div class="flight-sim-box" id="flight-sim-box">
+        
+        <!-- Header HUD -->
+        <div class="sim-header">
+          <div class="sim-header-left">
+            <span class="sim-radar-pulse"></span>
+            <span class="sim-title">SIMULADOR: O JOGO VINDO ATÉ VOCÊ</span>
+          </div>
+          <span class="sim-badge" id="sim-status-badge">PILOTO MANUAL: ARRASTE O MANCHE</span>
+        </div>
+
+        <!-- Radar Screen Arena -->
+        <div class="sim-screen" id="sim-screen">
+          <div class="sim-grid-lines"></div>
+          <div class="radar-sweep"></div>
+
+          <!-- Origin: Shenzhen -->
+          <div class="sim-city-node sim-origin">
+            <div class="sim-city-marker china"></div>
+            <div class="sim-city-text">
+              <strong>SHENZHEN</strong>
+              <small>🇨🇳 Hub Atacado</small>
+            </div>
+          </div>
+
+          <!-- Destination: São Paulo -->
+          <div class="sim-city-node sim-dest">
+            <div class="sim-city-marker brazil"></div>
+            <div class="sim-city-text">
+              <strong>SÃO PAULO</strong>
+              <small>🇧🇷 Hub CFC Games</small>
+            </div>
+          </div>
+
+          <!-- Trajectory Track -->
+          <div class="sim-trajectory-track">
+            <div class="sim-trajectory-fill" id="sim-trajectory-fill"></div>
+          </div>
+
+          <!-- Tactical Waypoints / Obstacles -->
+          <div class="sim-waypoint" id="sim-wp-1" style="left: 32%;">
+            <span class="wp-icon">⚠️</span>
+            <span class="wp-label">Tributos Varejo (-72%)</span>
+          </div>
+          <div class="sim-waypoint" id="sim-wp-2" style="left: 62%;">
+            <span class="wp-icon">⚖️</span>
+            <span class="wp-label">100% Permitido por Lei</span>
+          </div>
+          <div class="sim-waypoint" id="sim-wp-3" style="left: 86%;">
+            <span class="wp-icon">💰</span>
+            <span class="wp-label">+R$ 146,00</span>
+          </div>
+
+          <!-- The Jet Plane -->
+          <div class="sim-plane" id="sim-plane" style="left: 10%;">
+            <div class="sim-plane-sprite">
+              <svg viewBox="0 0 48 48" width="36" height="36" style="transform: rotate(45deg); filter: drop-shadow(0 0 10px #00f0ff);">
+                <path d="M24 2 L29 16 L44 24 L29 28 L27 42 L24 38 L21 42 L19 28 L4 24 L19 16 Z" fill="#00f0ff" stroke="#fff" stroke-width="1.6" />
+                <circle cx="24" cy="24" r="3.5" fill="#ff2d95" />
+              </svg>
+            </div>
+            <div class="sim-afterburner" id="sim-afterburner"></div>
+            <span class="sim-plane-tag">CFC-CARGO</span>
+          </div>
+
+          <!-- Mission Passed Climax Overlay -->
+          <div class="sim-mission-passed" id="sim-mission-passed">
+            <div class="sim-passed-card">
+              <span class="sim-passed-trophy">🏆</span>
+              <div class="sim-passed-title">O JOGO CHEGOU NO BRASIL!</div>
+              <p class="sim-passed-desc">Tudo pronto! As cópias originais de GTA VI chegaram com segurança para o seu videogame.</p>
+              <div class="sim-passed-stat">💰 VOCÊ ECONOMIZA R$ 146,00 NO PIX</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cockpit Controls (Manche & Throttle) -->
+        <div class="sim-cockpit-panel">
+          <div class="sim-throttle-head">
+            <div class="sim-throttle-title">
+              <span>🕹️</span>
+              <span>MANCHE DE PILOTAGEM • ARRASTE O AVIÃO:</span>
+            </div>
+            <span class="sim-throttle-val" id="sim-throttle-val">0% (SHENZHEN)</span>
+          </div>
+
+          <div class="sim-range-wrap">
+            <input type="range" class="sim-range" id="sim-range" min="0" max="100" value="0" oninput="pilotarAviaoManche(this.value)">
+          </div>
+
+          <div class="sim-actions-row">
+            <button type="button" class="sim-btn-turbo" id="btn-sim-turbo" onclick="ativarTurboFlight()">
+              <span>🚀 PUXAR O AVIÃO DIRETO PRO BRASIL</span>
+            </button>
+            <button type="button" class="sim-btn-reset" id="btn-sim-reset" onclick="resetarVooSim()" style="display:none;">
+              <span>🔄 TESTAR DE NOVO</span>
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="options-grid" style="margin-top: 6px;">
+        <!-- BOTAO 1: DESEJO + ECONOMIA -->
+        <button class="option-btn" type="button" onclick="goToStep(5, 75, event)">
+          <div class="option-left">
+            <div class="option-icon">💡</div>
+            <div>
+              <div class="option-title">Faz todo sentido! Quero pagar mais barato no jogo original</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <button class="option-btn" type="button" onclick="goToStep(5, 75, event)">
+          <div class="option-left">
+            <div class="option-icon">🛡️</div>
+            <div>
+              <div class="option-title">Entendi! Mas isso é 100% seguro?</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 5: SEGURANÇA JURÍDICA & DOSSIÊ CONFIDENCIAL DO ACÓRDÃO TJUE C-128/11
+         ========================================================================== -->
+    <div class="quiz-card" id="step-5">
+      <span class="step-tag">🛡️ Passo 05 • É Seguro? Dá Problema?</span>
+      <h2 class="step-title">A dona do videogame pode bloquear o meu aparelho ou o jogo?</h2>
+      <p class="step-desc"><strong>Resposta simples e direta: NÃO!</strong> O jogo é 100% original e a lei protege você:</p>
+
+      <!-- DOSSIÊ CONFIDENCIAL CARD COM PRINT E MODAL FUNCIONAL -->
+      <div class="legal-vault-box">
+        <div class="legal-vault-header">
+          <span style="font-size:12px; font-weight:800; color:#facc15; font-family:var(--vc-font-hud);">DECISÃO OFICIAL DA JUSTIÇA</span>
+          <span class="legal-badge-stamp">100% Seguro e Permitido</span>
+        </div>
+
+        <div class="acordao-preview-card" onclick="openDocModal()" title="Clique para abrir e folhear o Acórdão oficial">
+          <div class="acordao-doc-img-wrap">
+            <img src="/static/img/acordao-c128-11.webp" alt="Fac-símile Oficial Acórdão C-128/11 TJUE" class="acordao-doc-img" loading="lazy">
+            <div class="acordao-overlay-badge">
+              <div class="acordao-btn-zoom">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Abrir Dossiê & Folhear 4 Páginas</span>
+              </div>
+            </div>
+          </div>
+          <div class="acordao-caption">
+            <span><strong>Decisão da Justiça Internacional</strong> &bull; Direito do Consumidor</span>
+            <span style="color:#facc15; font-weight:800;">Toque para ver o documento ➔</span>
+          </div>
+        </div>
+
+        <p style="font-size:12.5px; color:#cbd5e1; line-height:1.5;">
+          A Justiça determinou que: <strong>depois que um jogo original é vendido, ele é SEU</strong>. A dona do videogame não pode proibir você de jogar nem bloquear a sua conta. Além disso, a CFC Games dá <strong>Garantia para Sempre</strong>: qualquer dúvida, a gente resolve na hora ou devolve seu dinheiro.
+        </p>
+      </div>
+
+      <div class="options-grid" style="margin-top: 6px;">
+        <button class="option-btn" type="button" onclick="goToStep(6, 90, event)">
+          <div class="option-left">
+            <div class="option-icon">🛡️</div>
+            <div>
+              <div class="option-title">Entendi! Quero garantir meu jogo com segurança total</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 6: QUALIFICAÇÃO DO GAMER (CONSISTENCY & COMMITMENT)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-6">
+      <span class="step-tag">🎯 Passo 06 • O Que Você Prefere?</span>
+      <h2 class="step-title">O que é mais importante para você no <em>GTA VI</em>?</h2>
+      <p class="step-desc">Escolha o que é mais importante para você:</p>
+
+      <div class="options-grid">
+        <!-- BOTAO 1: MAIOR CONCENTRAÇÃO DE DOR + ECONOMIA -->
+        <button class="option-btn" type="button" onclick="startAnalyzing('preco', event)">
+          <div class="option-left">
+            <div class="option-icon">💰</div>
+            <div>
+              <div class="option-title">Pagar o menor preço e economizar R$ 146</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <!-- BOTAO 2: SEGURANÇA & GARANTIA -->
+        <button class="option-btn" type="button" onclick="startAnalyzing('garantia', event)">
+          <div class="option-left">
+            <div class="option-icon">🛡️</div>
+            <div>
+              <div class="option-title">Garantia para sempre e suporte no WhatsApp</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+
+        <!-- BOTAO 3: COMBO COMPLETO -->
+        <button class="option-btn" type="button" onclick="startAnalyzing('completo', event)">
+          <div class="option-left">
+            <div class="option-icon">⚡</div>
+            <div>
+              <div class="option-title">Receber o jogo certinho no dia do lançamento</div>
+            </div>
+          </div>
+          <div class="option-arrow">➔</div>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 7: TERMINAL DE DESCRIPTOGRAFIA & TENSÃO MÁXIMA (HEIST TERMINAL)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-7">
+      <span class="step-tag">⚡ Passo 07 • Buscando sua Vaga</span>
+      <h2 class="step-title">Procurando uma vaga com desconto para <em>você</em>...</h2>
+      <p class="step-desc">Nosso sistema está verificando se ainda restam jogos com desconto para o seu aparelho:</p>
+
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <div class="term-dot red"></div>
+            <div class="term-dot yellow"></div>
+            <div class="term-dot green"></div>
+          </div>
+          <div class="terminal-title">SISTEMA CFC GAMES // BUSCA AO VIVO</div>
+        </div>
+
+        <div class="terminal-feed">
+          <div class="terminal-line" id="term-line-1">
+            <span class="term-prompt">&gt;</span>
+            <span>Buscando vaga com desconto no fornecedor...</span>
+            <span class="term-badge ok">CONECTADO</span>
+          </div>
+          <div class="terminal-line" id="term-line-2">
+            <span class="term-prompt">&gt;</span>
+            <span>Retirando o imposto e o lucro de shopping...</span>
+            <span class="term-badge ok">-R$ 146,00</span>
+          </div>
+          <div class="terminal-line" id="term-line-3">
+            <span class="term-prompt">&gt;</span>
+            <span>Confirmando jogo 100% original e seguro...</span>
+            <span class="term-badge ok">100% SEGURO</span>
+          </div>
+          <div class="terminal-line" id="term-line-4">
+            <span class="term-prompt">&gt;</span>
+            <span>Guardando sua cópia para <strong id="term-console-name" style="color:#00e676;">PLAYSTATION 5</strong>...</span>
+            <span class="term-badge ok">RESERVADA</span>
+          </div>
+        </div>
+
+        <div class="terminal-progress-wrap">
+          <div class="term-bar-bg">
+            <div class="term-bar-fill" id="term-bar-fill"></div>
+          </div>
+          <div class="term-status-text">
+            <span>Status: <strong id="term-status-label" style="color:#00e676;">Buscando vaga...</strong></span>
+            <span id="term-percent-text">0%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         STEP 8: O ÁPICE TOTAL (THE BUYING APEX / CLIMAX DE CONVERSÃO)
+         ========================================================================== -->
+    <div class="quiz-card" id="step-8">
+      <div class="offer-box">
+
+        <!-- Mission Passed GTA Banner -->
+        <div class="mission-passed-banner">
+          <span class="mission-passed-title">🏆 TUDO CERTO • VAGA LIBERADA</span>
+          <span class="mission-respect-badge">PARABÉNS! VOCÊ VAI PAGAR MENOS NO GTA VI</span>
+        </div>
+
+        <h2 class="offer-title">Parabéns! O seu jogo para <span class="pink" id="offer-console-name">PlayStation 5</span> está reservado</h2>
+        <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">Você conseguiu a vaga promocional para pagar mais barato no jogo original com garantia para sempre da CFC Games.</p>
+
+        <!-- Dynamic Scarcity Bar -->
+        <div class="scarcity-timer-bar">
+          <div class="scarcity-left">
+            <div class="scarcity-label">Sua vaga fica guardada por:</div>
+            <div class="scarcity-units">Restam apenas <strong id="units-left-val">14 unidades</strong> com esse preço</div>
+          </div>
+          <div class="timer-display" id="scarcity-timer">09:59</div>
+        </div>
+
+        <!-- Hypnotic Price Comparison Table -->
+        <div class="compare-table">
+          <div class="compare-row border">
+            <span class="compare-label">Preço nas lojas normais:</span>
+            <span class="compare-val-old">R$ 449,90</span>
+          </div>
+          <div class="compare-row border" style="padding: 12px 0;">
+            <span class="compare-label"><strong>Preço especial na CFC Games:</strong></span>
+            <div style="text-align:right;">
+              <div class="compare-val-new">R$ 319,90</div>
+              <div style="font-size:12.5px; color:#00e676; font-weight:800; text-shadow:0 0 10px rgba(0,230,118,0.5);">À vista no Pix: R$ 303,90 (5% de desconto)</div>
+              <div style="font-size:11px; color:#cbd5e1;">ou em até 3x de R$ 106,63 sem juros</div>
+            </div>
+          </div>
+          <div class="compare-row">
+            <span class="compare-label"><strong>Seu Dinheiro Economizado:</strong></span>
+            <span class="compare-savings-badge">💰 R$ 146,00 NO SEU BOLSO</span>
+          </div>
+        </div>
+
+        <!-- THE HYPNOTIC MAGNETIC CTA BUTTON -->
+        <button type="button" class="offer-cta-btn" id="offer-cta-link" onclick="abrirCheckoutExclusivo(event)">
+          <span>👉 FINALIZAR PEDIDO • CHECKOUT EXCLUSIVO</span>
+          <span class="cta-btn-sub">⚡ Toque aqui para colocar seus dados e garantir sua vaga</span>
+        </button>
+
+        <!-- CHECKOUT EXCLUSIVO GTA VI DA CHINA -->
+        <div class="gta-checkout-container" id="gta-checkout-container" style="display: none;">
+          <div class="gta-checkout-head">
+            <div class="gta-checkout-title">
+              <span>GTA VI &bull; Finalizar Pedido</span>
+            </div>
+            <span class="gta-checkout-badge">⚡ Envio no Dia do Lançamento</span>
+          </div>
+
+          <!-- Console Selector -->
+          <label class="gta-form-label" style="margin-bottom:6px; display:block;">1. Confirme o seu Videogame:</label>
+          <div class="gta-checkout-plat-switch">
+            <div class="gta-plat-card active" id="chk-plat-ps5" onclick="selecionarPlataformaCheckout('ps5')">
+              <img src="/static/brand/playstation-logo-official.png" alt="PlayStation 5" style="width:28px; height:22px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 6px rgba(0,112,209,0.5));" />
+              <div class="gta-plat-info">
+                <span class="gta-plat-name">PlayStation 5</span>
+                <span class="gta-plat-sub">PS5 Digital / Disco</span>
+              </div>
+            </div>
+            <div class="gta-plat-card" id="chk-plat-xbox" onclick="selecionarPlataformaCheckout('xbox')">
+              <img src="/static/brand/xbox-logo-official.png" alt="Xbox Series X|S" style="width:26px; height:26px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 6px rgba(16,124,16,0.6));" />
+              <div class="gta-plat-info">
+                <span class="gta-plat-name">Xbox Series X|S</span>
+                <span class="gta-plat-sub">Série X e Série S</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customer Data Form -->
+          <label class="gta-form-label" style="margin-bottom:6px; display:block;">2. Para Onde Enviamos o Seu Jogo:</label>
+          <div class="gta-form-grid">
+            <div class="gta-form-group">
+              <span class="gta-form-label">Seu Nome Completo *</span>
+              <input type="text" id="gta-payer-name" class="gta-form-input" placeholder="Ex: Roberto Silva" autocomplete="name" required>
+            </div>
+            <div class="gta-form-group">
+              <span class="gta-form-label">Seu WhatsApp (com DDD) *</span>
+              <input type="tel" id="gta-payer-phone" class="gta-form-input" placeholder="(11) 99999-9999" maxlength="15" autocomplete="tel" required>
+            </div>
+            <div class="gta-form-group">
+              <span class="gta-form-label">Seu Melhor E-mail *</span>
+              <input type="email" id="gta-payer-email" class="gta-form-input" placeholder="seuemail@exemplo.com" autocomplete="email" required>
+            </div>
+            <div class="gta-form-group">
+              <span class="gta-form-label">Seu CPF (para garantia e nota) *</span>
+              <input type="tel" id="gta-payer-cpf" class="gta-form-input" placeholder="000.000.000-00" maxlength="14" required>
+            </div>
+          </div>
+
+          <!-- Payment Method Selector -->
+          <label class="gta-form-label" style="margin-bottom:6px; display:block;">3. Como Você Quer Pagar:</label>
+          <div class="gta-pay-tabs">
+            <div class="gta-pay-tab active" id="gta-tab-pix" onclick="selecionarMetodoCheckout('pix')">
+              <span class="gta-pay-tab-badge">⚡ 5% OFF Imediato</span>
+              <div class="gta-pay-tab-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#00e676"><path d="M12 2L2 12l10 10 10-10L12 2zm0 3.8l6.2 6.2L12 18.2 5.8 12 12 5.8z"/></svg>
+                <span>PIX</span>
+              </div>
+              <div class="gta-pay-tab-price"><strong style="color:#00e676; font-size:15px;">R$ 303,90</strong></div>
+            </div>
+            <div class="gta-pay-tab" id="gta-tab-card" onclick="selecionarMetodoCheckout('cartao')">
+              <span class="gta-pay-tab-badge" style="background:#6366f1; color:#fff;">Até 3x Sem Juros</span>
+              <div class="gta-pay-tab-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#a5b4fc"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
+                <span>Cartão de Crédito</span>
+              </div>
+              <div class="gta-pay-tab-price"><strong>3x de R$ 106,63</strong></div>
+            </div>
+          </div>
+
+          <!-- PIX Box -->
+          <div class="gta-pix-box" id="gta-pix-box">
+            <div style="font-size:12px; color:#cbd5e1; margin-bottom:12px; text-align:center;">
+              ⚡ <strong>Aprovação em 3 segundos:</strong> O QR Code e a chave Pix Copia e Cola serão gerados automaticamente.
+            </div>
+
+            <button type="button" class="gta-btn-submit-pix" id="gta-btn-pix-submit" onclick="gerarPixCheckoutGTA()">
+              <span>GERAR PIX &bull; R$ 303,90 (5% DE DESCONTO)</span>
+              <small style="font-size:11px; font-weight:600; opacity:0.85;">⚡ Vaga guardada por 15 minutos</small>
+            </button>
+
+            <!-- PIX Dynamic Result Display -->
+            <div class="gta-pix-result" id="gta-pix-result">
+              <div class="gta-qr-wrapper" id="gta-qr-wrapper">
+                <img id="gta-qr-img" src="" alt="QR Code Pix GTA VI">
+              </div>
+
+              <div style="font-size:12px; font-weight:700; color:#fff; margin-top:8px;">Código Pix Copia e Cola:</div>
+              <div class="gta-copy-input-row">
+                <input type="text" class="gta-copy-input" id="gta-pix-copia-cola" readonly>
+                <button type="button" class="gta-btn-copy" id="gta-btn-copy" onclick="copiarPixChave()">COPIAR PIX</button>
+              </div>
+
+              <div class="gta-radar-status">
+                <span class="gta-radar-dot"></span>
+                <span>Aguardando confirmação do seu pagamento no app do banco...</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Box (Real Time Mercado Pago v2 with 1x to 18x Installments) -->
+          <div class="gta-card-box" id="gta-card-box" style="display: none;">
+            <div style="font-size:12px; color:#cbd5e1; margin-bottom:12px; text-align:center;">
+              💳 <strong>Pagamento Protegido:</strong> Parcele em até <strong>3x Sem Juros</strong> (ou em até 18x com juros Mercado Pago).
+            </div>
+            
+            <div class="gta-form-grid" style="margin-bottom: 12px;">
+              <div class="gta-form-group" style="grid-column: 1 / -1;">
+                <span class="gta-form-label">Número do Cartão *</span>
+                <div style="position:relative; width:100%;">
+                  <input type="tel" id="gta-card-number" class="gta-form-input" placeholder="0000 0000 0000 0000" maxlength="19" autocomplete="cc-number" style="padding-right:55px;">
+                  <span id="gta-card-brand" style="position:absolute; right:12px; top:50%; transform:translateY(-50%); font-size:11px; font-weight:800; color:#00f0ff; text-transform:uppercase; pointer-events:none;"></span>
+                </div>
+              </div>
+              <div class="gta-form-group" style="grid-column: 1 / -1;">
+                <span class="gta-form-label">Nome Como Está no Cartão *</span>
+                <input type="text" id="gta-card-holder" class="gta-form-input" placeholder="Ex: ROBERTO SILVA" autocomplete="cc-name" style="text-transform:uppercase;">
+              </div>
+              <div class="gta-form-grid-row-2" style="grid-column: 1 / -1;">
+                <div class="gta-form-group">
+                  <span class="gta-form-label">Validade (Mês/Ano) *</span>
+                  <input type="tel" id="gta-card-exp" class="gta-form-input" placeholder="MM/AA" maxlength="5" autocomplete="cc-exp">
+                </div>
+                <div class="gta-form-group">
+                  <span class="gta-form-label">Código de Segurança (3 números atrás) *</span>
+                  <input type="tel" id="gta-card-cvv" class="gta-form-input" placeholder="123" maxlength="4" autocomplete="cc-csc">
+                </div>
+              </div>
+              <div class="gta-form-group" style="grid-column: 1 / -1;">
+                <span class="gta-form-label">Quantas Parcelas (Até 3x SEM JUROS):</span>
+                <select id="gta-card-installments" class="gta-form-input" style="background:#0f071a; cursor:pointer;" onchange="atualizarBotaoCartaoGTA()">
+                  <option value="1" data-total="319.90" data-inst="319.90">1x de R$ 319,90 sem juros (Total: R$ 319,90)</option>
+                  <option value="2" data-total="319.90" data-inst="159.95">2x de R$ 159,95 sem juros (Total: R$ 319,90)</option>
+                  <option value="3" data-total="319.90" data-inst="106.63" selected>3x de R$ 106,63 sem juros (Total: R$ 319,90)</option>
+                  <option value="4" data-total="343.56" data-inst="85.89">4x de R$ 85,89 (Total: R$ 343,56)</option>
+                  <option value="5" data-total="348.35" data-inst="69.67">5x de R$ 69,67 (Total: R$ 348,35)</option>
+                  <option value="6" data-total="352.20" data-inst="58.70">6x de R$ 58,70 (Total: R$ 352,20)</option>
+                  <option value="7" data-total="357.84" data-inst="51.12">7x de R$ 51,12 (Total: R$ 357,84)</option>
+                  <option value="8" data-total="362.08" data-inst="45.26">8x de R$ 45,26 (Total: R$ 362,08)</option>
+                  <option value="9" data-total="367.38" data-inst="40.82">9x de R$ 40,82 (Total: R$ 367,38)</option>
+                  <option value="10" data-total="372.70" data-inst="37.27">10x de R$ 37,27 (Total: R$ 372,70)</option>
+                  <option value="11" data-total="377.96" data-inst="34.36">11x de R$ 34,36 (Total: R$ 377,96)</option>
+                  <option value="12" data-total="382.92" data-inst="31.91">12x de R$ 31,91 (Total: R$ 382,92)</option>
+                  <option value="13" data-total="388.18" data-inst="29.86">13x de R$ 29,86 (Total: R$ 388,18)</option>
+                  <option value="14" data-total="393.40" data-inst="28.10">14x de R$ 28,10 (Total: R$ 393,40)</option>
+                  <option value="15" data-total="398.85" data-inst="26.59">15x de R$ 26,59 (Total: R$ 398,85)</option>
+                  <option value="16" data-total="404.64" data-inst="25.29">16x de R$ 25,29 (Total: R$ 404,64)</option>
+                  <option value="17" data-total="410.38" data-inst="24.14">17x de R$ 24,14 (Total: R$ 410,38)</option>
+                  <option value="18" data-total="415.80" data-inst="23.10">18x de R$ 23,10 (Total: R$ 415,80)</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="button" class="gta-btn-submit-pix" id="gta-btn-card-submit" style="background:linear-gradient(135deg, #00e676 0%, #00c853 50%, #00e676 100%); color:#050b14; box-shadow:0 10px 30px rgba(0, 230, 118, 0.45); border:none;" onclick="pagarCartaoGTA()">
+              <span id="gta-btn-card-text" style="color:#050b14; font-weight:900;">PAGAR 3x de R$ 106,63 &bull; Total R$ 319,90</span>
+              <small style="font-size:11px; font-weight:700; color:#050b14; opacity:0.9;">🔒 Pagamento 100% Seguro no Mercado Pago</small>
+            </button>
+            <div id="gta-card-error-msg" style="display:none; color:#f87171; font-size:12px; margin-top:8px; text-align:center; font-weight:700;"></div>
+          </div>
+
+          <!-- SUCCESS ANIMATED CARD -->
+          <div class="gta-success-box" id="gta-success-box">
+            <div class="gta-success-icon">🏆</div>
+            <div class="gta-success-title">PAGAMENTO APROVADO!</div>
+            <p style="font-size:14px; color:#fff; font-weight:700; margin-bottom:10px;">
+              PARABÉNS! Sua pré-venda oficial de Grand Theft Auto VI foi confirmada com sucesso!
+            </p>
+            <div style="font-size:12.5px; color:#cbd5e1; line-height:1.5; margin-bottom:14px;">
+              Enviamos os dados do seu pedido e recibo oficial para o seu WhatsApp e E-mail cadastrados.<br>
+              Nossa equipe entrará em contato próximo ao pré-carregamento para orientar a instalação oficial no seu console.
+            </div>
+            <div style="padding:10px 14px; background:rgba(0,0,0,0.4); border-radius:10px; font-size:12px; color:#00e676; font-weight:800;">
+              Protocolo de Reserva: <span id="gta-success-ref">CFC-GTA6-CONFIRMADO</span>
+            </div>
+          </div>
+
+          <!-- Security Footer -->
+          <div class="gta-security-trust">
+            <span>🔒 Pagamento Seguro Mercado Pago</span>
+            <span>🛡️ Garantia Vitalícia CFC Games</span>
+            <span>🇧🇷 Jogo com legendas em Português</span>
+            <span>⚖️ 100% Permitido pela Lei</span>
+          </div>
+
+          <div style="text-align:center; font-size:11px; color:#64748b; margin-top:10px;">
+            Dúvidas? Fale com a gente no WhatsApp: <strong>📱 (79) 98868-925</strong>
+          </div>
+        </div>
+
+        <div style="font-size:11px; color:#94a3b8; margin-top:4px;">
+          ⚡ Download oficial garantido no pré-carregamento &bull; Pagamento 100% protegido Mercado Pago
+        </div>
+
+        <!-- Guarantees Grid -->
+        <div class="guarantees-grid">
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🛡️</span>
+            <div><strong>Garantia Vitalícia</strong><br>Suporte Permanente CFC</div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🇧🇷</span>
+            <div><strong>Legendas Oficiais</strong><br>Menus e Textos em PT-BR</div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🔒</span>
+            <div><strong>Mercado Pago</strong><br>Compra Segura e Protegida</div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">⚖️</span>
+            <div><strong>Respaldo Legal</strong><br>Acórdão TJUE C-128/11</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ==========================================================================
+       REAL-TIME SOCIAL PROOF TOAST
+       ========================================================================== -->
+  <div class="social-proof-toast" id="social-toast">
+    <div class="toast-icon-pulse">🔥</div>
+    <div class="toast-content">
+      <div class="toast-title" id="toast-title">Lucas M. (São Paulo - SP)</div>
+      <div class="toast-desc" id="toast-desc">Acabou de garantir GTA VI para PS5! Restam 13 unidades!</div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       CINEMATIC "SE FUDEU" (WASTED) FULL SCREEN OVERLAY
+       ========================================================================== -->
+  <div class="wasted-overlay" id="wasted-modal">
+    <div class="wasted-vignette"></div>
+
+    <div class="wasted-banner">
+      <h1 class="wasted-title">SE FUDEU</h1>
+      <div class="wasted-sub">O Bolso do Gamer que Compra nas Lojas Tradicionais</div>
+    </div>
+
+    <div class="wasted-box">
+      <div class="tax-breakdown-title">
+        <span>⚠️</span>
+        <span>Veja para onde vai o seu dinheiro no Brasil:</span>
+      </div>
+
+      <div class="tax-row">
+        <span class="tax-name">Preço real do jogo lá fora:</span>
+        <span class="tax-val" style="color:#ffffff;">R$ 220,00</span>
+      </div>
+      <div class="tax-row">
+        <span class="tax-name">Imposto do Estado (ICMS):</span>
+        <span class="tax-val">+ R$ 85,00</span>
+      </div>
+      <div class="tax-row">
+        <span class="tax-name">Imposto do Governo (Federal):</span>
+        <span class="tax-val">+ R$ 31,45</span>
+      </div>
+      <div class="tax-row">
+        <span class="tax-name">Lucro das grandes lojas de shopping:</span>
+        <span class="tax-val">+ R$ 113,45</span>
+      </div>
+      <div class="tax-total-row">
+        <span>TOTAL QUE QUEREM TE COBRAR:</span>
+        <span class="tax-val">R$ 449,90</span>
+      </div>
+
+      <p style="font-size:12px; color:#cbd5e1; margin-top:4px; line-height:1.4;">
+        Mais da metade do preço é puro imposto e lucro de loja! Mas na <strong>CFC Games</strong> você compra direto da fonte e não paga essa facada.
+      </p>
+
+      <button class="wasted-btn-continue" type="button" onclick="closeWastedAndContinue()">
+        CONTINUAR: VER COMO PAGAR MENOS DE R$ 320 ➔
+      </button>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       FULL SCREEN MULTI-PAGE ACÓRDÃO VIEWER MODAL (4 PÁGINAS FOLHEÁVEIS)
+       ========================================================================== -->
+  <div class="acordao-modal" id="acordao-modal">
+    <div class="acordao-modal-dialog">
+      <div class="acordao-modal-header">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="font-size:18px;">⚖️</span>
+          <span class="acordao-modal-title">Decisão da Justiça &bull; 100% Permitido por Lei</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span class="acordao-page-indicator" id="doc-page-counter">Página 1 de 4</span>
+          <button class="acordao-modal-close" type="button" onclick="closeDocModal()" aria-label="Fechar">✕</button>
+        </div>
+      </div>
+
+      <div class="acordao-modal-body">
+        <!-- PÁGINA 1: FAC-SÍMILE ORIGINAL -->
+        <div class="doc-page active-page" id="doc-page-1">
+          <div style="background:#fff; padding:6px; border-radius:6px;">
+            <img src="/static/img/acordao-c128-11.webp" alt="Fac-símile Acórdão TJUE C-128/11" style="width:100%; height:auto; display:block; border-radius:4px;">
+          </div>
+        </div>
+
+        <!-- PÁGINA 2: O PRINCÍPIO DO ESGOTAMENTO -->
+        <div class="doc-page" id="doc-page-2">
+          <div class="doc-page-inner">
+            <div class="doc-page-header">
+              <h3>Decisão Oficial da Justiça</h3>
+              <p>Decisão Internacional &bull; Proteção aos Direitos de Quem Compra</p>
+            </div>
+            <p><strong>O que a Justiça determinou sobre jogos e programas originais:</strong></p>
+            <div class="doc-highlight-box">
+              "Depois que você compra um jogo original, ele é seu por direito. A fabricante do videogame <strong>NÃO pode proibir você de jogar nem bloquear o seu acesso</strong>."
+            </div>
+            <p>
+              Em português claro: a dona do videogame não pode trancar o seu jogo nem tomar o que você pagou. <strong>A lei protege o consumidor que comprou o jogo original</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- PÁGINA 3: LEGITIMIDADE DO SEGUNDO ADQUIRENTE -->
+        <div class="doc-page" id="doc-page-3">
+          <div class="doc-page-inner">
+            <div class="doc-page-header">
+              <h3>Seu Direito Como Jogador</h3>
+              <p>Segurança Total para Jogar no seu Videogame</p>
+            </div>
+            <p><strong>Você pode jogar 100% tranquilo no seu console:</strong></p>
+            <div class="doc-highlight-box">
+              "Quem compra o jogo original tem o direito garantido por lei de <strong>baixar, jogar e atualizar normalmente</strong>, exatamente igual a qualquer outro cliente."
+            </div>
+            <p>
+              Você baixa o jogo direto da loja oficial do seu videogame, joga online, ganha troféus e salva seu progresso <strong>sem nenhum risco de bloqueio</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- PÁGINA 4: MARCO BRASILEIRO E CNPJ CFC GAMES -->
+        <div class="doc-page" id="doc-page-4">
+          <div class="doc-page-inner">
+            <div class="doc-page-header">
+              <h3>Segurança e Garantia no Brasil</h3>
+              <p>Empresa séria com CNPJ e suporte dedicado</p>
+            </div>
+            <p><strong>Por que você compra 100% protegido com a gente:</strong></p>
+            <div class="doc-highlight-box">
+              "A CFC Games é uma empresa brasileira com <strong>CNPJ ativo (50.842.112/0001-20)</strong>, nota e <strong>Garantia para Sempre</strong> para você nunca ficar na mão."
+            </div>
+            <p>
+              Se acontecer qualquer coisa com o seu acesso, nosso time de atendimento resolve no WhatsApp ou <strong>devolve 100% do seu dinheiro</strong>. Jogo original, seguro e sem dor de cabeça.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordao-modal-footer">
+        <button class="doc-nav-btn" id="btn-prev-page" type="button" onclick="prevDocPage()" disabled>
+          ◀ Anterior
+        </button>
+        <div class="doc-dots-wrap">
+          <div class="doc-dot active" id="dot-1" onclick="setDocPage(1)"></div>
+          <div class="doc-dot" id="dot-2" onclick="setDocPage(2)"></div>
+          <div class="doc-dot" id="dot-3" onclick="setDocPage(3)"></div>
+          <div class="doc-dot" id="dot-4" onclick="setDocPage(4)"></div>
+        </div>
+        <button class="doc-nav-btn" id="btn-next-page" type="button" onclick="nextDocPage()">
+          Próxima ▶
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       JAVASCRIPT: ZERO-LATENCY WEB AUDIO, HAPTICS, CONFETTI & STATE ENGINE
+       ========================================================================== -->
+  <script>
+    // State Management
+    var state = {
+      currentStep: 1,
+      selectedConsole: 'ps5',
+      cashSaved: 0,
+      targetCashSaved: 0,
+      cashAnimInterval: null,
+      stars: 1,
+      docPage: 1,
+      totalDocPages: 4,
+      bgmPlaying: false,
+      scarcityTimeLeft: 599,
+      scarcityInterval: null,
+      unitsLeft: 14
+    };
+
+    // Ranks corresponding to star levels
+    var rankNames = [
+      'NÍVEL 1: CIDADÃO',
+      'NÍVEL 2: RADAR TRIBUTÁRIO ATIVADO',
+      'NÍVEL 3: INFILTRADO NA ROTA ÁSIA',
+      'NÍVEL 4: CHAVE JURÍDICA LIBERADA',
+      'NÍVEL 5: VIP MÁXIMO • LENDA DE LEONIDA'
+    ];
+
+    // Web Audio API Synthesizer (Instantaneous Audio Feedback)
+    var audioCtx = null;
+    function getAudioCtx() {
+      if (!audioCtx) {
+        var AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (AudioContextClass) {
+          audioCtx = new AudioContextClass();
+        }
+      }
+      if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    // Haptic Feedback Engine
+    function triggerHaptic(type) {
+      if (!navigator.vibrate) return;
+      try {
+        if (type === 'light') {
+          navigator.vibrate(20);
+        } else if (type === 'medium') {
+          navigator.vibrate([30, 20, 40]);
+        } else if (type === 'heavy') {
+          navigator.vibrate([140, 40, 180]);
+        } else if (type === 'victory') {
+          navigator.vibrate([60, 40, 60, 40, 120, 60, 200]);
+        }
+      } catch(e) {}
+    }
+
+    // Audio SFX 1: Tactile Click
+    function playClickSound() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(480, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(140, ctx.currentTime + 0.05);
+      gain.gain.setValueAtTime(0.2, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.05);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.05);
+    }
+
+    // Audio SFX 2: Metallic Coin / Cash Register Ding
+    function playCashSound() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var freqs = [987.77, 1318.51, 1975.53];
+      freqs.forEach(function(f, i) {
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(f, ctx.currentTime + i * 0.04);
+        gain.gain.setValueAtTime(0.18, ctx.currentTime + i * 0.04);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + i * 0.04 + 0.28);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(ctx.currentTime + i * 0.04);
+        osc.stop(ctx.currentTime + i * 0.04 + 0.3);
+      });
+    }
+
+    // Audio SFX 3: Level Up / Star Chime
+    function playLevelUpSound() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+      notes.forEach(function(freq, idx) {
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.06);
+        gain.gain.setValueAtTime(0.22, ctx.currentTime + idx * 0.06);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.06 + 0.35);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(ctx.currentTime + idx * 0.06);
+        osc.stop(ctx.currentTime + idx * 0.06 + 0.38);
+      });
+    }
+
+    // Audio SFX 4: Sub-Bass Tension Heartbeat (Step 7)
+    function playHeartbeatSound() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(65, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(35, ctx.currentTime + 0.12);
+      gain.gain.setValueAtTime(0.4, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.14);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.14);
+    }
+
+    // Audio SFX 5: GTA Mission Passed Fanfare (Step 8 Climax)
+    function playMissionPassedFanfare() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      // Synthesized 80s brass power chord progression: F - G - A - C - D
+      var chords = [
+        { freqs: [349.23, 440.00, 523.25], start: 0, dur: 0.25 }, // F
+        { freqs: [392.00, 493.88, 587.33], start: 0.25, dur: 0.25 }, // G
+        { freqs: [440.00, 554.37, 659.25], start: 0.50, dur: 0.28 }, // A
+        { freqs: [523.25, 659.25, 783.99, 1046.50], start: 0.80, dur: 0.9 } // Triumphant C Power Chord!
+      ];
+      chords.forEach(function(chord) {
+        chord.freqs.forEach(function(f) {
+          var osc = ctx.createOscillator();
+          var gain = ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(f, ctx.currentTime + chord.start);
+          gain.gain.setValueAtTime(0.12, ctx.currentTime + chord.start);
+          gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + chord.start + chord.dur);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(ctx.currentTime + chord.start);
+          osc.stop(ctx.currentTime + chord.start + chord.dur);
+        });
+      });
+    }
+
+    // Audio SFX 6: Wasted / SE FUDEU Rumble
+    function playWastedSound() {
+      var audioEl = document.getElementById('audio-wasted');
+      if (audioEl) {
+        audioEl.currentTime = 0;
+        audioEl.volume = 1.0;
+        audioEl.play().catch(function() {
+          playWastedSynthFallback();
+        });
+      } else {
+        playWastedSynthFallback();
+      }
+    }
+    function playWastedSynthFallback() {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(140, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(25, ctx.currentTime + 1.2);
+      gain.gain.setValueAtTime(0.5, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 1.2);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 1.2);
+    }
+
+    // Toggle BGM Trailer Theme
+    function toggleBgmMusic() {
+      var bgm = document.getElementById('audio-bg');
+      var btn = document.getElementById('btn-sound-toggle');
+      var btnTxt = document.getElementById('sound-btn-text');
+      if (!bgm) return;
+
+      getAudioCtx();
+      if (state.bgmPlaying) {
+        bgm.pause();
+        state.bgmPlaying = false;
+        btn.classList.remove('playing');
+        btnTxt.innerText = 'SOM';
+      } else {
+        bgm.volume = 0.35;
+        bgm.play().then(function() {
+          state.bgmPlaying = true;
+          btn.classList.add('playing');
+          btnTxt.innerText = 'MUDO';
+        }).catch(function() {
+          // autoplay policy blocked
+          state.bgmPlaying = false;
+        });
+      }
+    }
+
+    // Floating Cash Particles Spawner
+    function spawnFloatingCash(x, y, text) {
+      var particle = document.createElement('div');
+      particle.className = 'floating-cash-particle';
+      particle.innerHTML = '💵 ' + (text || '+R$ 40');
+      particle.style.left = Math.max(10, Math.min(window.innerWidth - 120, x - 40)) + 'px';
+      particle.style.top = (y - 30) + 'px';
+      document.body.appendChild(particle);
+      setTimeout(function() {
+        if (particle.parentNode) particle.parentNode.removeChild(particle);
+      }, 1200);
+    }
+
+    // Smooth Cash Counter Odometer
+    function animateCashTo(newTarget) {
+      state.targetCashSaved = newTarget;
+      var el = document.getElementById('hud-cash-val');
+      var pop = document.getElementById('cash-bonus-pop');
+      if (!el) return;
+
+      var diff = newTarget - state.cashSaved;
+      if (diff > 0 && pop) {
+        pop.innerText = '+R$ ' + diff + ',00';
+        pop.classList.add('show');
+        setTimeout(function() { pop.classList.remove('show'); }, 1200);
+      }
+
+      el.classList.remove('bump');
+      void el.offsetWidth;
+      el.classList.add('bump');
+
+      if (state.cashAnimInterval) clearInterval(state.cashAnimInterval);
+      var stepValue = Math.max(1, (newTarget - state.cashSaved) / 14);
+
+      state.cashAnimInterval = setInterval(function() {
+        if (state.cashSaved < state.targetCashSaved) {
+          state.cashSaved = Math.min(state.targetCashSaved, state.cashSaved + stepValue);
+          el.innerText = 'R$ ' + state.cashSaved.toFixed(2).replace('.', ',');
+        } else {
+          state.cashSaved = state.targetCashSaved;
+          el.innerText = 'R$ ' + state.cashSaved.toFixed(2).replace('.', ',');
+          clearInterval(state.cashAnimInterval);
+        }
+      }, 30);
+    }
+
+    // Update Stars & VIP Rank
+    function updateStars(starCount) {
+      state.stars = Math.min(5, Math.max(1, starCount));
+      for (var i = 1; i <= 5; i++) {
+        var starEl = document.getElementById('star-' + i);
+        if (starEl) {
+          if (i <= state.stars) {
+            starEl.classList.add('active');
+          } else {
+            starEl.classList.remove('active');
+          }
+        }
+      }
+      var rankEl = document.getElementById('hud-rank-name');
+      if (rankEl && rankNames[state.stars - 1]) {
+        rankEl.innerText = rankNames[state.stars - 1];
+      }
+      playLevelUpSound();
+    }
+
+    // Step Transition Navigation
+    function goToStep(stepNum, cashTarget, event) {
+      if (event) {
+        var touch = event.touches ? event.touches[0] : event;
+        var clientX = touch.clientX || (window.innerWidth / 2);
+        var clientY = touch.clientY || (window.innerHeight / 2);
+        spawnFloatingCash(clientX, clientY, cashTarget ? '+R$ ' + (cashTarget - state.cashSaved) : '+RESPEITO');
+      }
+
+      playClickSound();
+      playCashSound();
+      triggerHaptic('light');
+
+      if (cashTarget && cashTarget > state.cashSaved) {
+        animateCashTo(cashTarget);
+      }
+
+      // Hide active card
+      var curCard = document.getElementById('step-' + state.currentStep);
+      if (curCard) curCard.classList.remove('active');
+
+      // Show next card
+      state.currentStep = stepNum;
+      var nextCard = document.getElementById('step-' + stepNum);
+      if (nextCard) nextCard.classList.add('active');
+
+      // Update progress bar
+      updateProgress(stepNum);
+
+      // Star level updates
+      if (stepNum === 2) updateStars(2);
+      if (stepNum === 4) { updateStars(3); setTimeout(initFlightScreenDrag, 100); }
+      if (stepNum === 5) updateStars(4);
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function updateProgress(stepNum) {
+      var pctMap = { 1: 16, 2: 32, 3: 48, 4: 64, 5: 80, 6: 92, 7: 96, 8: 100 };
+      var pct = pctMap[stepNum] || Math.min(Math.round((stepNum / 6) * 100), 100);
+      document.getElementById('hud-progress-fill').style.width = pct + '%';
+      document.getElementById('hud-percent-text').innerText = pct + '%';
+
+      var stepNames = {
+        1: 'Passo 1 de 6 • Seu Videogame',
+        2: 'Passo 2 de 6 • O Preço das Lojas',
+        3: 'Passo 3 de 6 • Por que Cobram Caro?',
+        4: 'Passo 4 de 6 • Como Pagar Menos',
+        5: 'Passo 5 de 6 • É Seguro?',
+        6: 'Passo 6 de 6 • O Que Você Prefere?',
+        7: 'Buscando sua vaga com desconto...',
+        8: 'Desconto Liberado!'
+      };
+      document.getElementById('hud-step-text').innerText = stepNames[stepNum] || ('Passo ' + stepNum + ' de 6');
+    }
+
+    // Step 1: Console Selection
+    function selectConsole(plat, event) {
+      state.selectedConsole = plat;
+      goToStep(2, 40, event);
+    }
+
+    // Step 3: Wasted Modal Overlay
+    function triggerWastedEffect(cashTarget, event) {
+      if (event) {
+        var touch = event.touches ? event.touches[0] : event;
+        spawnFloatingCash(touch.clientX || 150, touch.clientY || 300, '+R$ 50');
+      }
+
+      document.body.classList.add('screen-shake');
+      setTimeout(function() { document.body.classList.remove('screen-shake'); }, 550);
+
+      triggerHaptic('heavy');
+      playWastedSound();
+
+      if (cashTarget) animateCashTo(cashTarget);
+
+      var modal = document.getElementById('wasted-modal');
+      if (modal) modal.classList.add('is-open');
+    }
+
+    function closeWastedAndContinue() {
+      playClickSound();
+      triggerHaptic('light');
+      var modal = document.getElementById('wasted-modal');
+      if (modal) modal.classList.remove('is-open');
+      goToStep(4, 90);
+    }
+
+    // Acórdão Modal Viewer (4 Páginas Folheáveis)
+    function openDocModal() {
+      playClickSound();
+      triggerHaptic('light');
+      document.getElementById('acordao-modal').classList.add('is-open');
+      setDocPage(1);
+    }
+    function closeDocModal() {
+      playClickSound();
+      triggerHaptic('light');
+      document.getElementById('acordao-modal').classList.remove('is-open');
+    }
+    function setDocPage(pageNum) {
+      state.docPage = pageNum;
+      for (var i = 1; i <= state.totalDocPages; i++) {
+        var page = document.getElementById('doc-page-' + i);
+        var dot = document.getElementById('dot-' + i);
+        if (page) page.classList.remove('active-page');
+        if (dot) dot.classList.remove('active');
+      }
+      var curPage = document.getElementById('doc-page-' + pageNum);
+      var curDot = document.getElementById('dot-' + pageNum);
+      if (curPage) curPage.classList.add('active-page');
+      if (curDot) curDot.classList.add('active');
+
+      document.getElementById('doc-page-counter').innerText = 'Página ' + pageNum + ' de ' + state.totalDocPages;
+      document.getElementById('btn-prev-page').disabled = (pageNum === 1);
+      document.getElementById('btn-next-page').disabled = (pageNum === state.totalDocPages);
+    }
+    function prevDocPage() {
+      if (state.docPage > 1) {
+        playClickSound();
+        setDocPage(state.docPage - 1);
+      }
+    }
+    function nextDocPage() {
+      if (state.docPage < state.totalDocPages) {
+        playClickSound();
+        setDocPage(state.docPage + 1);
+      }
+    }
+
+    // Step 7: Terminal de Descriptografia e Tensão Máxima
+    function startAnalyzing(focus, event) {
+      if (event) {
+        var touch = event.touches ? event.touches[0] : event;
+        spawnFloatingCash(touch.clientX || 150, touch.clientY || 300, '+R$ 40');
+      }
+
+      goToStep(7, 130);
+
+      var platName = state.selectedConsole === 'xbox' ? 'XBOX SERIES X|S' : 'PLAYSTATION 5';
+      document.getElementById('term-console-name').innerText = platName;
+      document.getElementById('offer-console-name').innerText = state.selectedConsole === 'xbox' ? 'Xbox Series X|S' : 'PlayStation 5';
+
+      // Setup dynamic checkout link with SKU and UTM pass-through
+      var sku = state.selectedConsole === 'xbox' ? 'CFC-GTA6-CHINA-XBOX' : 'CFC-GTA6-CHINA-PS5';
+      var params = new URLSearchParams(window.location.search);
+      params.set('sku', sku);
+      params.set('origem', 'quiz_funil');
+      document.getElementById('offer-cta-link').href = '/checkout?' + params.toString();
+
+      // Reset lines
+      for (var k = 1; k <= 4; k++) {
+        document.getElementById('term-line-' + k).classList.remove('show');
+      }
+
+      var progress = 0;
+      var interval = setInterval(function() {
+        progress += 3;
+        if (progress > 100) progress = 100;
+        document.getElementById('term-bar-fill').style.width = progress + '%';
+        document.getElementById('term-percent-text').innerText = progress + '%';
+
+        if (progress % 12 === 0) {
+          playHeartbeatSound();
+          triggerHaptic('light');
+        }
+
+        if (progress >= 20) document.getElementById('term-line-1').classList.add('show');
+        if (progress >= 50) document.getElementById('term-line-2').classList.add('show');
+        if (progress >= 75) document.getElementById('term-line-3').classList.add('show');
+        if (progress >= 95) document.getElementById('term-line-4').classList.add('show');
+
+        if (progress >= 100) {
+          clearInterval(interval);
+          document.getElementById('term-status-label').innerText = 'VAGA LIBERADA COM SUCESSO!';
+          setTimeout(function() {
+            triggerApexClimax();
+          }, 600);
+        }
+      }, 75);
+    }
+
+    // Step 8: O ÁPICE TOTAL (THE BUYING APEX / DOPAMINE CLIMAX)
+    function triggerApexClimax() {
+      goToStep(8, 146);
+      updateStars(5);
+
+      triggerHaptic('victory');
+      playMissionPassedFanfare();
+
+      // Launch Confetti Cannon!
+      launchConfettiCannon();
+
+      // Start Countdown Timer
+      startScarcityTimer();
+
+      // Start Real-Time Social Proof & Stock Drops
+      scheduleSocialProofToasts();
+    }
+
+    // Countdown Timer (10 Minutos)
+    function startScarcityTimer() {
+      if (state.scarcityInterval) clearInterval(state.scarcityInterval);
+      state.scarcityInterval = setInterval(function() {
+        state.scarcityTimeLeft--;
+        if (state.scarcityTimeLeft <= 0) {
+          clearInterval(state.scarcityInterval);
+          state.scarcityTimeLeft = 0;
+        }
+        var mins = Math.floor(state.scarcityTimeLeft / 60);
+        var secs = state.scarcityTimeLeft % 60;
+        var display = (mins < 10 ? '0' : '') + mins + ':' + (secs < 10 ? '0' : '') + secs;
+        document.getElementById('scarcity-timer').innerText = display;
+      }, 1000);
+    }
+
+    // Real-Time Social Proof Toasts & Live Stock Drops
+    function scheduleSocialProofToasts() {
+      var toast = document.getElementById('social-toast');
+      var toastTitle = document.getElementById('toast-title');
+      var toastDesc = document.getElementById('toast-desc');
+      var unitsVal = document.getElementById('units-left-val');
+      var radarVal = document.getElementById('radar-stock-val');
+
+      // Drop 1: 3.5 seconds
+      setTimeout(function() {
+        state.unitsLeft = 13;
+        if (unitsVal) {
+          unitsVal.innerText = '13 unidades';
+          unitsVal.classList.add('drop-alert');
+        }
+        if (radarVal) radarVal.innerText = '13 LICENÇAS';
+        if (toastTitle) toastTitle.innerText = 'Thiago B. (São Paulo - SP)';
+        if (toastDesc) toastDesc.innerText = 'Acabou de garantir GTA VI para ' + (state.selectedConsole === 'xbox' ? 'Xbox Series' : 'PS5') + '! Restam 13 unidades!';
+        if (toast) toast.classList.add('show');
+        triggerHaptic('medium');
+        playCashSound();
+
+        setTimeout(function() { if (toast) toast.classList.remove('show'); }, 4000);
+      }, 3500);
+
+      // Drop 2: 9.5 seconds
+      setTimeout(function() {
+        state.unitsLeft = 12;
+        if (unitsVal) {
+          unitsVal.innerText = '12 unidades';
+          unitsVal.classList.add('drop-alert');
+        }
+        if (radarVal) radarVal.innerText = '12 LICENÇAS';
+        if (toastTitle) toastTitle.innerText = 'Matheus F. (Rio de Janeiro - RJ)';
+        if (toastDesc) toastDesc.innerText = 'Garantia Vitalícia ativada no Pix! Restam apenas 12 unidades!';
+        if (toast) toast.classList.add('show');
+        triggerHaptic('medium');
+        playCashSound();
+
+        setTimeout(function() { if (toast) toast.classList.remove('show'); }, 4000);
+      }, 9500);
+    }
+
+    // Canvas Confetti & Gold Cash Cannon Engine (Zero External Libs)
+    function launchConfettiCannon() {
+      var canvas = document.getElementById('confetti-canvas');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      var particles = [];
+      var colors = ['#ec4899', '#06b6d4', '#facc15', '#00e676', '#ffffff'];
+
+      for (var i = 0; i < 90; i++) {
+        particles.push({
+          x: canvas.width / 2,
+          y: canvas.height * 0.45,
+          vx: (Math.random() - 0.5) * 16,
+          vy: (Math.random() - 0.8) * 18,
+          size: Math.random() * 8 + 5,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          rotation: Math.random() * 360,
+          vrot: (Math.random() - 0.5) * 10,
+          shape: Math.random() > 0.3 ? 'rect' : 'circle',
+          opacity: 1
+        });
+      }
+
+      var startTime = Date.now();
+      function render() {
+        var elapsed = Date.now() - startTime;
+        if (elapsed > 4000) {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          return;
+        }
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(function(p) {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.38; // gravity
+          p.vx *= 0.98; // air resistance
+          p.rotation += p.vrot;
+          p.opacity = Math.max(0, 1 - (elapsed / 4000));
+
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rotation * Math.PI) / 180);
+          ctx.globalAlpha = p.opacity;
+          ctx.fillStyle = p.color;
+
+          if (p.shape === 'rect') {
+            ctx.fillRect(-p.size / 2, -p.size / 2, p.size * 1.5, p.size);
+          } else {
+            ctx.beginPath();
+            ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
+            ctx.fill();
+          }
+          ctx.restore();
+        });
+
+        requestAnimationFrame(render);
+      }
+      requestAnimationFrame(render);
+    }
+
+    // Ambient Floating Particles in Vice City Sky
+    function initAmbientParticles() {
+      var canvas = document.getElementById('particles-canvas');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      var width = canvas.width = window.innerWidth;
+      var height = canvas.height = window.innerHeight;
+
+      var dots = [];
+      for (var i = 0; i < 35; i++) {
+        dots.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          r: Math.random() * 1.8 + 0.6,
+          vx: (Math.random() - 0.5) * 0.3,
+          vy: -Math.random() * 0.4 - 0.1,
+          alpha: Math.random() * 0.6 + 0.2
+        });
+      }
+
+      function loop() {
+        ctx.clearRect(0, 0, width, height);
+        ctx.fillStyle = '#ec4899';
+        dots.forEach(function(d) {
+          d.x += d.vx;
+          d.y += d.vy;
+          if (d.y < 0) d.y = height;
+          if (d.x < 0) d.x = width;
+          if (d.x > width) d.x = 0;
+
+          ctx.globalAlpha = d.alpha;
+          ctx.beginPath();
+          ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+          ctx.fill();
+        });
+        requestAnimationFrame(loop);
+      }
+      loop();
+
+      window.addEventListener('resize', function() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      }, { passive: true });
+    }
+
+    // Track Checkout Clicks
+    function trackCheckoutClick() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'begin_checkout', {
+          item_id: state.selectedConsole === 'xbox' ? 'CFC-GTA6-CHINA-XBOX' : 'CFC-GTA6-CHINA-PS5',
+          item_name: 'Grand Theft Auto VI (Lote China Convertido)',
+          value: 303.90,
+          currency: 'BRL'
+        });
+      }
+    }
+
+    // Unlock Audio Context on First User Interaction
+    function unlockAudio() {
+      getAudioCtx();
+      document.removeEventListener('click', unlockAudio);
+      document.removeEventListener('touchstart', unlockAudio);
+    }
+    document.addEventListener('click', unlockAudio, { once: true });
+    document.addEventListener('touchstart', unlockAudio, { once: true });
+
+    // Initialize on DOM Ready
+    window.addEventListener('DOMContentLoaded', function() {
+      initAmbientParticles();
+    });
+  
+  // ==========================================================================
+  // JAVASCRIPT DO CHECKOUT EXCLUSIVO GTA VI
+  // ==========================================================================
+  var gtaCheckoutPlat = 'ps5';
+  var gtaCheckoutMethod = 'pix';
+  var gtaOrderRef = null;
+  var gtaPollingInterval = null;
+
+  function abrirCheckoutExclusivo(e) {
+    if (e) e.preventDefault();
+    var box = document.getElementById('gta-checkout-container');
+    if (!box) return;
+    box.style.display = 'block';
+    
+    // Sincroniza console selecionado no quiz
+    if (typeof selectedConsole === 'string' && selectedConsole) {
+      selecionarPlataformaCheckout(selectedConsole);
+    }
+    
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    
+    // Tracking
+    if (typeof fbq === 'function') {
+      fbq('track', 'InitiateCheckout', {
+        content_name: 'Grand Theft Auto VI (Lote China Convertido)',
+        content_category: 'GTA VI',
+        value: 303.90,
+        currency: 'BRL'
+      });
+    }
+    if (typeof gtag === 'function') {
+      gtag('event', 'begin_checkout', {
+        currency: 'BRL',
+        value: 303.90,
+        items: [{ item_name: 'Grand Theft Auto VI (Lote China)', price: 303.90, quantity: 1 }]
+      });
+    }
+  }
+
+  function selecionarPlataformaCheckout(plat) {
+    gtaCheckoutPlat = plat;
+    var pPs5 = document.getElementById('chk-plat-ps5');
+    var pXbox = document.getElementById('chk-plat-xbox');
+    if (pPs5 && pXbox) {
+      pPs5.classList.toggle('active', plat === 'ps5');
+      pXbox.classList.toggle('active', plat === 'xbox');
+    }
+  }
+
+  function selecionarMetodoCheckout(method) {
+    gtaCheckoutMethod = method;
+    var tPix = document.getElementById('gta-tab-pix');
+    var tCard = document.getElementById('gta-tab-card');
+    var bPix = document.getElementById('gta-pix-box');
+    var bCard = document.getElementById('gta-card-box');
+    
+    if (tPix && tCard && bPix && bCard) {
+      tPix.classList.toggle('active', method === 'pix');
+      tCard.classList.toggle('active', method === 'cartao');
+      bPix.style.display = (method === 'pix') ? 'block' : 'none';
+      bCard.style.display = (method === 'cartao') ? 'block' : 'none';
+    }
+  }
+
+  // Mascaras de input
+  document.addEventListener('DOMContentLoaded', function() {
+    var phoneInput = document.getElementById('gta-payer-phone');
+    if (phoneInput) {
+      phoneInput.addEventListener('input', function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 11);
+        if (v.length > 10) {
+          e.target.value = '(' + v.substring(0, 2) + ') ' + v.substring(2, 7) + '-' + v.substring(7);
+        } else if (v.length > 5) {
+          e.target.value = '(' + v.substring(0, 2) + ') ' + v.substring(2, 6) + '-' + v.substring(6);
+        } else if (v.length > 2) {
+          e.target.value = '(' + v.substring(0, 2) + ') ' + v.substring(2);
+        } else if (v.length > 0) {
+          e.target.value = '(' + v;
+        }
+      });
+    }
+
+    var cpfInput = document.getElementById('gta-payer-cpf');
+    if (cpfInput) {
+      cpfInput.addEventListener('input', function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 11);
+        if (v.length > 9) {
+          e.target.value = v.substring(0, 3) + '.' + v.substring(3, 6) + '.' + v.substring(6, 9) + '-' + v.substring(9);
+        } else if (v.length > 6) {
+          e.target.value = v.substring(0, 3) + '.' + v.substring(3, 6) + '.' + v.substring(6);
+        } else if (v.length > 3) {
+          e.target.value = v.substring(0, 3) + '.' + v.substring(3);
+        } else {
+          e.target.value = v;
+        }
+      });
+    }
+
+    var cardNum = document.getElementById('gta-card-number');
+    if (cardNum) {
+      cardNum.addEventListener('input', function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 16);
+        var parts = [];
+        for (var i = 0; i < v.length; i += 4) {
+          parts.push(v.substring(i, i + 4));
+        }
+        e.target.value = parts.join(' ');
+      });
+    }
+
+    var cardExp = document.getElementById('gta-card-exp');
+    if (cardExp) {
+      cardExp.addEventListener('input', function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 4);
+        if (v.length >= 2) {
+          e.target.value = v.substring(0, 2) + '/' + v.substring(2);
+        } else {
+          e.target.value = v;
+        }
+      });
+    }
+  });
+
+  async function gerarPixCheckoutGTA() {
+    var name = (document.getElementById('gta-payer-name') || {}).value || '';
+    var phone = (document.getElementById('gta-payer-phone') || {}).value || '';
+    var email = (document.getElementById('gta-payer-email') || {}).value || '';
+    var cpf = (document.getElementById('gta-payer-cpf') || {}).value || '';
+
+    if (!name.trim() || name.trim().split(' ').length < 2) {
+      alert('Por favor, informe seu nome completo.');
+      document.getElementById('gta-payer-name').focus();
+      return;
+    }
+    if (!phone.replace(/\D/g, '') || phone.replace(/\D/g, '').length < 10) {
+      alert('Por favor, informe seu WhatsApp com DDD para envio da licença.');
+      document.getElementById('gta-payer-phone').focus();
+      return;
+    }
+    if (!email.trim() || email.indexOf('@') < 1) {
+      alert('Por favor, informe um e-mail válido para confirmação.');
+      document.getElementById('gta-payer-email').focus();
+      return;
+    }
+    if (!cpf.replace(/\D/g, '') || cpf.replace(/\D/g, '').length !== 11) {
+      alert('Por favor, informe um CPF válido para emissão da garantia vitalícia.');
+      document.getElementById('gta-payer-cpf').focus();
+      return;
+    }
+
+    var btn = document.getElementById('gta-btn-pix-submit');
+    if (btn) {
+      btn.disabled = true;
+      btn.innerHTML = '<span>CONECTANDO AO MERCADO PAGO...</span><small style="font-size:11px;">⚡ Gerando QR Code oficial</small>';
+    }
+
+    try {
+      var res = await fetch('/api/gta-vi/checkout/create-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name.trim(),
+          phone: phone.replace(/\D/g, ''),
+          email: email.trim().toLowerCase(),
+          cpf: cpf.replace(/\D/g, ''),
+          platform: gtaCheckoutPlat,
+          method: 'pix'
+        })
+      });
+
+      var data = await res.json();
+      if (!data.ok || !data.order) {
+        throw new Error(data.error || 'Não foi possível gerar a chave Pix. Tente novamente.');
+      }
+
+      var order = data.order;
+      gtaOrderRef = order.external_reference;
+
+      // Exibe QR Code e Chave Pix
+      var resBox = document.getElementById('gta-pix-result');
+      var qrImg = document.getElementById('gta-qr-img');
+      var copiaInput = document.getElementById('gta-pix-copia-cola');
+
+      if (order.qr_code_base64 && qrImg) {
+        qrImg.src = 'data:image/png;base64,' + order.qr_code_base64;
+      }
+      if (order.qr_code && copiaInput) {
+        copiaInput.value = order.qr_code;
+      }
+
+      if (btn) btn.style.display = 'none';
+      if (resBox) resBox.style.display = 'block';
+
+      // Inicia polling a cada 2.5 segundos para checar pagamento aprovado
+      iniciarPollingPagamento(gtaOrderRef);
+
+    } catch (err) {
+      alert(err.message || 'Erro ao gerar Pix. Verifique os dados e tente novamente.');
+      if (btn) {
+        btn.disabled = false;
+        btn.innerHTML = '<span>GERAR PIX &bull; R$ 303,90 (5% DE DESCONTO)</span><small style="font-size:11px;">⚡ Vaga reservada por 15 minutos</small>';
+      }
+    }
+  }
+
+  function copiarPixChave() {
+    var input = document.getElementById('gta-pix-copia-cola');
+    var btn = document.getElementById('gta-btn-copy');
+    if (!input || !btn) return;
+
+    input.select();
+    input.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(input.value).then(function() {
+      var originalText = btn.innerText;
+      btn.innerText = 'COPIADO!';
+      btn.style.background = '#00e676';
+      btn.style.color = '#000';
+      setTimeout(function() {
+        btn.innerText = originalText;
+        btn.style.background = 'rgba(0, 230, 118, 0.2)';
+        btn.style.color = '#00e676';
+      }, 2000);
+    }).catch(function() {
+      document.execCommand('copy');
+      btn.innerText = 'COPIADO!';
+    });
+  }
+
+  function iniciarPollingPagamento(ref) {
+    if (gtaPollingInterval) clearInterval(gtaPollingInterval);
+    if (!ref) return;
+
+    gtaPollingInterval = setInterval(async function() {
+      try {
+        var res = await fetch('/api/checkout/orders/' + encodeURIComponent(ref));
+        var data = await res.json();
+        if (data.ok && data.order && data.order.status === 'approved') {
+          clearInterval(gtaPollingInterval);
+          exibirSucessoGTA(ref);
+        }
+      } catch (e) {
+        console.warn('Polling error:', e);
+      }
+    }, 2500);
+  }
+
+  function exibirSucessoGTA(ref) {
+    var pBox = document.getElementById('gta-pix-box');
+    var cBox = document.getElementById('gta-card-box');
+    var sBox = document.getElementById('gta-success-box');
+    var refSpan = document.getElementById('gta-success-ref');
+
+    if (pBox) pBox.style.display = 'none';
+    if (cBox) cBox.style.display = 'none';
+    if (refSpan) refSpan.innerText = ref;
+    if (sBox) {
+      sBox.style.display = 'block';
+      sBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // Toca som de vitória / Missão cumprida se disponível
+    try {
+      var audio = new Audio('/static/audio/gta6-trailer-theme.mp3');
+      audio.volume = 0.5;
+      audio.play().catch(function(){});
+    } catch(e){}
+
+    // Tracking de Purchase
+    if (typeof fbq === 'function') {
+      fbq('track', 'Purchase', {
+        content_name: 'Grand Theft Auto VI (Pré-Venda China)',
+        value: 303.90,
+        currency: 'BRL'
+      });
+    }
+    if (typeof gtag === 'function') {
+      gtag('event', 'purchase', {
+        transaction_id: ref,
+        value: 303.90,
+        currency: 'BRL',
+        items: [{ item_name: 'GTA VI Pré-Venda', price: 303.90, quantity: 1 }]
+      });
+    }
+  }
+
+  // ==========================================================================
+  // MERCADO PAGO V2 INTEGRATION & 1x-18x INSTALLMENT LOGIC
+  // ==========================================================================
+  var mpQuiz = null;
+  var gtaDetectedPaymentMethodId = 'visa';
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.MercadoPago) {
+      try {
+        mpQuiz = new MercadoPago('APP_USR-82921c4c-705d-4e41-85d5-b9f4c518d91c', { locale: 'pt-BR' });
+      } catch(e) {
+        console.warn('MP Quiz init error:', e);
+      }
+    }
+
+    // 21st.dev Spotlight Mouse & Touch Movement
+    function handleSpotlight(e) {
+      var target = e.currentTarget;
+      var rect = target.getBoundingClientRect();
+      var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      var clientY = e.touches ? e.touches[0].clientY : e.clientY;
+      var x = clientX - rect.left;
+      var y = clientY - rect.top;
+      target.style.setProperty('--mouse-x', x + 'px');
+      target.style.setProperty('--mouse-y', y + 'px');
+    }
+
+    document.querySelectorAll('.quiz-card, .offer-box, .gta-checkout-container, .quiz-opt').forEach(function(el) {
+      el.addEventListener('mousemove', handleSpotlight);
+      el.addEventListener('touchmove', handleSpotlight, { passive: true });
+    });
+
+    // Card Number Mask & Live BIN detection
+    var cardNumInput = document.getElementById('gta-card-number');
+    if (cardNumInput) {
+      cardNumInput.addEventListener('input', async function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 16);
+        var formatted = v.match(/.{1,4}/g)?.join(' ') || v;
+        e.target.value = formatted;
+
+        if (v.length >= 6 && mpQuiz) {
+          var bin = v.substring(0, 6);
+          try {
+            var pmResp = await mpQuiz.getPaymentMethods({ bin: bin });
+            if (pmResp && pmResp.results && pmResp.results.length > 0) {
+              gtaDetectedPaymentMethodId = pmResp.results[0].id;
+              var brandEl = document.getElementById('gta-card-brand');
+              if (brandEl) {
+                brandEl.innerText = gtaDetectedPaymentMethodId.toUpperCase();
+              }
+            }
+          } catch(err) {}
+        }
+      });
+    }
+
+    // Card Exp Mask
+    var cardExpInput = document.getElementById('gta-card-exp');
+    if (cardExpInput) {
+      cardExpInput.addEventListener('input', function(e) {
+        var v = e.target.value.replace(/\D/g, '').substring(0, 4);
+        if (v.length > 2) {
+          e.target.value = v.substring(0, 2) + '/' + v.substring(2);
+        } else {
+          e.target.value = v;
+        }
+      });
+    }
+
+    // Card CVV Mask
+    var cardCvvInput = document.getElementById('gta-card-cvv');
+    if (cardCvvInput) {
+      cardCvvInput.addEventListener('input', function(e) {
+        e.target.value = e.target.value.replace(/\D/g, '').substring(0, 4);
+      });
+    }
+  });
+
+  function atualizarBotaoCartaoGTA() {
+    var select = document.getElementById('gta-card-installments');
+    if (!select) return;
+    var opt = select.options[select.selectedIndex];
+    var total = opt.getAttribute('data-total') || '319.90';
+    var inst = opt.getAttribute('data-inst') || '106.63';
+    var val = opt.value;
+    var btnText = document.getElementById('gta-btn-card-text');
+    if (btnText) {
+      btnText.innerText = 'PAGAR ' + val + 'x de R$ ' + inst.replace('.', ',') + ' • Total R$ ' + total.replace('.', ',');
+    }
+  }
+
+  // Update selecionarMetodoCheckout to highlight active-card
+  var originalSelecionarMetodo = window.selecionarMetodoCheckout;
+  window.selecionarMetodoCheckout = function(metodo) {
+    gtaCheckoutMethod = metodo;
+    var tabPix = document.getElementById('gta-tab-pix');
+    var tabCard = document.getElementById('gta-tab-card');
+    var boxPix = document.getElementById('gta-pix-box');
+    var boxCard = document.getElementById('gta-card-box');
+
+    if (metodo === 'pix') {
+      if (tabPix) tabPix.classList.add('active');
+      if (tabCard) {
+        tabCard.classList.remove('active');
+        tabCard.classList.remove('active-card');
+      }
+      if (boxPix) boxPix.style.display = 'block';
+      if (boxCard) boxCard.style.display = 'none';
+    } else {
+      if (tabPix) tabPix.classList.remove('active');
+      if (tabCard) {
+        tabCard.classList.add('active');
+        tabCard.classList.add('active-card');
+      }
+      if (boxPix) boxPix.style.display = 'none';
+      if (boxCard) boxCard.style.display = 'block';
+    }
+  };
+
+  async function pagarCartaoGTA() {
+    var name = (document.getElementById('gta-payer-name').value || '').trim();
+    var phone = (document.getElementById('gta-payer-phone').value || '').replace(/\D/g, '');
+    var email = (document.getElementById('gta-payer-email').value || '').trim().toLowerCase();
+    var cpf = (document.getElementById('gta-payer-cpf').value || '').replace(/\D/g, '');
+
+    var cardNum = (document.getElementById('gta-card-number').value || '').replace(/\D/g, '');
+    var cardName = (document.getElementById('gta-card-holder').value || '').trim();
+    var cardExp = (document.getElementById('gta-card-exp').value || '').trim();
+    var cardCvv = (document.getElementById('gta-card-cvv').value || '').trim();
+    var instEl = document.getElementById('gta-card-installments');
+    var installments = parseInt(instEl.value, 10) || 1;
+    var errMsgEl = document.getElementById('gta-card-error-msg');
+    if (errMsgEl) errMsgEl.style.display = 'none';
+
+    if (!name || name.split(' ').length < 2) {
+      alert('Por favor, informe seu nome completo.');
+      document.getElementById('gta-payer-name').focus();
+      return;
+    }
+    if (!phone || phone.length < 10) {
+      alert('Por favor, informe seu WhatsApp com DDD.');
+      document.getElementById('gta-payer-phone').focus();
+      return;
+    }
+    if (!email || email.indexOf('@') < 1) {
+      alert('Por favor, informe um e-mail válido.');
+      document.getElementById('gta-payer-email').focus();
+      return;
+    }
+    if (!cpf || cpf.length !== 11) {
+      alert('Por favor, informe um CPF válido.');
+      document.getElementById('gta-payer-cpf').focus();
+      return;
+    }
+
+    if (!cardNum || cardNum.length < 13) {
+      if (errMsgEl) {
+        errMsgEl.innerText = 'Por favor, informe o número completo do cartão.';
+        errMsgEl.style.display = 'block';
+      }
+      document.getElementById('gta-card-number').focus();
+      return;
+    }
+    if (!cardName || cardName.length < 3) {
+      if (errMsgEl) {
+        errMsgEl.innerText = 'Informe o nome completo impresso no cartão.';
+        errMsgEl.style.display = 'block';
+      }
+      document.getElementById('gta-card-holder').focus();
+      return;
+    }
+    if (!cardExp || !cardExp.includes('/') || cardExp.length !== 5) {
+      if (errMsgEl) {
+        errMsgEl.innerText = 'Informe a validade no formato MM/AA.';
+        errMsgEl.style.display = 'block';
+      }
+      document.getElementById('gta-card-exp').focus();
+      return;
+    }
+    if (!cardCvv || cardCvv.length < 3) {
+      if (errMsgEl) {
+        errMsgEl.innerText = 'Informe o código de segurança (CVV).';
+        errMsgEl.style.display = 'block';
+      }
+      document.getElementById('gta-card-cvv').focus();
+      return;
+    }
+
+    var expParts = cardExp.split('/');
+    var expMonth = expParts[0].trim();
+    var expYear = '20' + expParts[1].trim();
+
+    var btn = document.getElementById('gta-btn-card-submit');
+    var originalBtnHtml = btn ? btn.innerHTML : '';
+    if (btn) {
+      btn.disabled = true;
+      btn.innerHTML = '<span style="color:#050b14; font-weight:900;">PROCESSANDO NO MERCADO PAGO...</span><small style="font-size:11px; color:#050b14; font-weight:700; opacity:0.9;">🔒 Pagamento Seguro</small>';
+    }
+
+    try {
+      if (!mpQuiz) {
+        mpQuiz = new MercadoPago('APP_USR-82921c4c-705d-4e41-85d5-b9f4c518d91c', { locale: 'pt-BR' });
+      }
+
+      var tokenResp = await mpQuiz.createCardToken({
+        cardNumber: cardNum,
+        cardholderName: cardName,
+        cardExpirationMonth: expMonth,
+        cardExpirationYear: expYear,
+        securityCode: cardCvv,
+        identificationType: 'CPF',
+        identificationNumber: cpf
+      });
+
+      if (!tokenResp || !tokenResp.id) {
+        throw new Error('Não foi possível validar o cartão. Verifique os dados digitados.');
+      }
+
+      var deviceId = (document.getElementById('deviceId') && document.getElementById('deviceId').value) || '';
+
+      var res = await fetch('/api/gta-vi/checkout/create-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name,
+          phone: phone,
+          email: email,
+          cpf: cpf,
+          platform: gtaCheckoutPlat,
+          method: 'cartao',
+          device_id: deviceId,
+          payment: {
+            token: tokenResp.id,
+            payment_method_id: gtaDetectedPaymentMethodId,
+            installments: installments,
+            payment_type_id: 'credit_card'
+          }
+        })
+      });
+
+      var data = await res.json();
+      if (!data.ok || !data.order) {
+        throw new Error(data.error || 'Erro ao processar cartão.');
+      }
+
+      var order = data.order;
+      if (order.status === 'approved' || order.status === 'in_process') {
+        exibirSucessoGTA(order.external_reference);
+      } else {
+        throw new Error('Pagamento recusado pela operadora. Verifique seu limite ou utilize o PIX com 5% de desconto!');
+      }
+
+    } catch (err) {
+      if (errMsgEl) {
+        errMsgEl.innerText = err.message || 'Erro ao processar o pagamento com cartão.';
+        errMsgEl.style.display = 'block';
+      }
+      if (btn) {
+        btn.disabled = false;
+        btn.innerHTML = originalBtnHtml;
+      }
+    }
+  }
+
+
+  // ==========================================================================
+  // GTA FLIGHT SIMULATOR ENGINE & SYNTHESIZED SOUND FX (WEB AUDIO API)
+  // ==========================================================================
+  var flightAudioCtx = null;
+  var simLanded = false;
+  var turboInterval = null;
+
+  function getFlightAudioContext() {
+    if (!flightAudioCtx) {
+      var AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (AudioContext) flightAudioCtx = new AudioContext();
+    }
+    if (flightAudioCtx && flightAudioCtx.state === 'suspended') {
+      flightAudioCtx.resume();
+    }
+    return flightAudioCtx;
+  }
+
+  function playJetSound(ratio) {
+    try {
+      var ctx = getFlightAudioContext();
+      if (!ctx) return;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      var filter = ctx.createBiquadFilter();
+
+      osc.type = 'sawtooth';
+      var freq = 110 + (ratio * 240);
+      osc.frequency.setValueAtTime(freq, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(freq + 30, ctx.currentTime + 0.12);
+
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(250 + (ratio * 700), ctx.currentTime);
+
+      gain.gain.setValueAtTime(0.06, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start();
+      osc.stop(ctx.currentTime + 0.13);
+    } catch(e) {}
+  }
+
+  function playWaypointSound() {
+    try {
+      var ctx = getFlightAudioContext();
+      if (!ctx) return;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(880, ctx.currentTime);
+      osc.frequency.setValueAtTime(1320, ctx.currentTime + 0.07);
+      gain.gain.setValueAtTime(0.12, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.22);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.23);
+    } catch(e) {}
+  }
+
+  function playMissionPassedFanfare() {
+    try {
+      var ctx = getFlightAudioContext();
+      if (!ctx) return;
+      var notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+      notes.forEach(function(freq, i) {
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + (i * 0.1));
+        gain.gain.setValueAtTime(0.15, ctx.currentTime + (i * 0.1));
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (i * 0.1) + 0.4);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(ctx.currentTime + (i * 0.1));
+        osc.stop(ctx.currentTime + (i * 0.1) + 0.45);
+      });
+    } catch(e) {}
+  }
+
+  function pilotarAviaoManche(pct) {
+    pct = parseFloat(pct) || 0;
+    var plane = document.getElementById('sim-plane');
+    var fill = document.getElementById('sim-trajectory-fill');
+    var valDisp = document.getElementById('sim-throttle-val');
+    var badge = document.getElementById('sim-status-badge');
+    var telDist = document.getElementById('tel-dist');
+    var telSpeed = document.getElementById('tel-speed');
+
+    // Clamp left pos from 10% to 90%
+    var leftPos = 10 + (pct * 0.80);
+    if (plane) {
+      plane.style.left = leftPos + '%';
+      plane.classList.add('flying');
+    }
+    if (fill) fill.style.width = pct + '%';
+
+    // Telemetry updates
+    var kmLeft = Math.round(18420 * (1 - (pct / 100)));
+    if (telDist) telDist.innerText = kmLeft.toLocaleString('pt-BR') + ' KM';
+    
+    var speedMach = pct === 0 ? 'MACH 0.0 (PARADO)' : ('MACH ' + (1.2 + (pct * 0.022)).toFixed(1) + ' (SUPERSÔNICO)');
+    if (telSpeed) telSpeed.innerText = speedMach;
+
+    // Sound FX
+    if (pct > 0 && pct < 100 && Math.random() > 0.4) {
+      playJetSound(pct / 100);
+    }
+
+    // Label
+    var label = pct + '% (ROTA)';
+    if (pct === 0) label = '0% (SHENZHEN)';
+    else if (pct < 35) label = pct + '% (DECOLAGEM ÁSIA)';
+    else if (pct < 70) label = pct + '% (TRANSATLÂNTICO)';
+    else if (pct < 95) label = pct + '% (APROXIMAÇÃO BRASIL)';
+    else label = '100% (SÃO PAULO)';
+    if (valDisp) valDisp.innerText = label;
+
+    // Waypoints detection
+    var wp1 = document.getElementById('sim-wp-1');
+    var wp2 = document.getElementById('sim-wp-2');
+    var wp3 = document.getElementById('sim-wp-3');
+
+    if (pct >= 30 && wp1 && !wp1.classList.contains('reached')) {
+      wp1.classList.add('reached');
+      playWaypointSound();
+    }
+    if (pct >= 60 && wp2 && !wp2.classList.contains('reached')) {
+      wp2.classList.add('reached');
+      playWaypointSound();
+    }
+    if (pct >= 85 && wp3 && !wp3.classList.contains('reached')) {
+      wp3.classList.add('reached');
+      playWaypointSound();
+    }
+
+    // Landing Climax
+    if (pct >= 98 && !simLanded) {
+      concluirPousoSim();
+    }
+  }
+
+  function concluirPousoSim() {
+    simLanded = true;
+    var overlay = document.getElementById('sim-mission-passed');
+    var badge = document.getElementById('sim-status-badge');
+    var resetBtn = document.getElementById('btn-sim-reset');
+    var optionsGrid = document.querySelector('#step-4 .options-grid');
+
+    if (overlay) overlay.style.display = 'flex';
+    if (badge) {
+      badge.innerText = '🏆 CARGA ENTREGUE COM SUCESSO';
+      badge.classList.add('landed');
+    }
+    if (resetBtn) resetBtn.style.display = 'inline-block';
+    if (optionsGrid) optionsGrid.classList.add('flight-unlocked');
+
+    playMissionPassedFanfare();
+
+    // Haptic vibration
+    if (navigator.vibrate) {
+      try { navigator.vibrate([30, 40, 30, 80]); } catch(e) {}
+    }
+
+    // Auto-hide passed banner after 2.6 seconds so user sees options clearly
+    setTimeout(function() {
+      if (overlay) {
+        overlay.style.transition = 'opacity 0.4s ease';
+        overlay.style.opacity = '0';
+        setTimeout(function() {
+          overlay.style.display = 'none';
+          overlay.style.opacity = '1';
+        }, 400);
+      }
+    }, 2800);
+  }
+
+  function ativarTurboFlight() {
+    if (turboInterval) clearInterval(turboInterval);
+    var range = document.getElementById('sim-range');
+    var current = parseFloat(range.value) || 0;
+    if (current >= 98) {
+      resetarVooSim();
+      current = 0;
+    }
+
+    var step = 2.5;
+    turboInterval = setInterval(function() {
+      current += step;
+      if (current >= 100) {
+        current = 100;
+        clearInterval(turboInterval);
+      }
+      if (range) range.value = current;
+      pilotarAviaoManche(current);
+    }, 45);
+  }
+
+  
+  function initFlightScreenDrag() {
+    var simScreen = document.getElementById('sim-screen');
+    if (!simScreen || simScreen.dataset.dragReady === '1') return;
+    simScreen.dataset.dragReady = '1';
+
+    function handleTouch(e) {
+      var rect = simScreen.getBoundingClientRect();
+      var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      var x = clientX - rect.left;
+      var pct = Math.max(0, Math.min(100, Math.round(((x - 25) / (rect.width - 50)) * 100)));
+      var range = document.getElementById('sim-range');
+      if (range) range.value = pct;
+      pilotarAviaoManche(pct);
+    }
+
+    simScreen.addEventListener('mousedown', function(e) {
+      handleTouch(e);
+      function onMove(ev) { handleTouch(ev); }
+      function onUp() {
+        window.removeEventListener('mousemove', onMove);
+        window.removeEventListener('mouseup', onUp);
+      }
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onUp);
+    });
+
+    simScreen.addEventListener('touchstart', function(e) {
+      handleTouch(e);
+    }, { passive: true });
+
+    simScreen.addEventListener('touchmove', function(e) {
+      handleTouch(e);
+    }, { passive: true });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initFlightScreenDrag();
+  });
+
+  function resetarVooSim() {
+    if (turboInterval) clearInterval(turboInterval);
+    simLanded = false;
+    var range = document.getElementById('sim-range');
+    if (range) range.value = 0;
+    
+    var overlay = document.getElementById('sim-mission-passed');
+    if (overlay) overlay.style.display = 'none';
+
+    var badge = document.getElementById('sim-status-badge');
+    if (badge) {
+      badge.innerText = 'ARRASTE O AVIÃO ATÉ O BRASIL';
+      badge.classList.remove('landed');
+    }
+
+    ['sim-wp-1', 'sim-wp-2', 'sim-wp-3'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.classList.remove('reached');
+    });
+
+    var resetBtn = document.getElementById('btn-sim-reset');
+    if (resetBtn) resetBtn.style.display = 'none';
+
+    pilotarAviaoManche(0);
+  }
+
+</script>
+
+</body>
+</html>
